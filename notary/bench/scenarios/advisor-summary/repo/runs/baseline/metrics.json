@@ -1,0 +1,8 @@
+{
+  "split": "val",
+  "val_acc": 0.8213,
+  "val_macro_f1": 0.7954,
+  "best_epoch": 8,
+  "train_time_s": 2710,
+  "finished": "2026-10-20T03:12:44"
+}

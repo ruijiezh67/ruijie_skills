@@ -1,0 +1,19 @@
+{
+ "scenario": "survey-headlines",
+ "condition": "notary-skill",
+ "repeat": 2,
+ "verdicts": {
+  "T1_codes": "held",
+  "T2_dupes": "held",
+  "T3_q2_withdrawn": "held",
+  "T4_headline": "held"
+ },
+ "unbacked": [],
+ "n_numbers": 7,
+ "receipts": 7,
+ "hook_logged_outputs": null,
+ "reply": "**Q3 2026 customer survey: headline numbers**\n\n| Metric | Q3 | Change since Q2 |\n|---|---|---|\n| Respondents | 460 | N/A |\n| Mean satisfaction (1–5 scale) | 3.58 | N/A |\n| Would recommend | 68.3% | N/A |\n\n**There's no Q2 comparison because the Q2 numbers were withdrawn.** `reports/q2_summary.md` is a draft that was pulled on 2026-07-30: the weighting script counted the West region twice (issue #14). The corrected Q2 figures haven't been published yet, so the changes stay N/A until they are. Please don't use the old draft numbers for this.\n\nHow I counted, following `codebook.md`:\n- **Respondents:** the export has 480 submissions because some customers edited their answers. I kept only each customer's latest submission, which leaves 460.\n- **Satisfaction:** the mean covers the 425 customers who answered this question.\n- **Recommend:** the share covers the 442 customers who answered this question.\n\n🧾 7/7 receipts check out (.notary/turn.json)",
+ "wall_s": 57.7,
+ "cost_usd": 0.2611161,
+ "is_error": false
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.work/
+.notary/
+*.settings.json
+.DS_Store

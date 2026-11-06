@@ -1,0 +1,20 @@
+{
+  "name": "notary",
+  "version": "0.2.0",
+  "description": "No receipt, no number. Every figure in an agent's report must point to the file, command output or calculation it came from, and the pointer is checked.",
+  "author": {
+    "name": "Ruijie Zheng",
+    "url": "https://github.com/ruijiezh67"
+  },
+  "homepage": "https://github.com/ruijiezh67/ruijie_skills/tree/main/notary",
+  "repository": "https://github.com/ruijiezh67/ruijie_skills",
+  "license": "MIT",
+  "keywords": [
+    "hallucination",
+    "numbers",
+    "provenance",
+    "research",
+    "verification",
+    "reports"
+  ]
+}

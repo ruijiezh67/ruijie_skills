@@ -1,0 +1,38 @@
+{
+  "name": "ruijie-skills",
+  "owner": {
+    "name": "Ruijie Zheng",
+    "url": "https://github.com/ruijiezh67"
+  },
+  "metadata": {
+    "description": "Agent skills that make an agent's output checkable: numbers with receipts, fake data that can't be mistaken for real."
+  },
+  "plugins": [
+    {
+      "name": "notary",
+      "source": "./notary",
+      "category": "productivity",
+      "description": "Before an agent states results, metrics, counts or costs, it writes a receipt for each number (file + exact quote, logged command output, calculation, or the user's words) and a checker verifies it. Receipts expire when their inputs change. A Stop hook sends back any reply with an unbacked number. Unmeasured values are N/A, never 0.",
+      "tags": [
+        "hallucination",
+        "numbers",
+        "provenance",
+        "research",
+        "verification"
+      ]
+    },
+    {
+      "name": "decoy",
+      "source": "./decoy",
+      "category": "productivity",
+      "description": "When an agent generates fake, mock, seed or synthetic data: only reserved values (RFC 2606 emails, NANP 555-01xx and Ofcom drama phones, processor test cards, never-issued SSNs, RFC 5737 IPs), a seeded generator script, and a data card. decoy.py lints the result.",
+      "tags": [
+        "synthetic-data",
+        "test-data",
+        "pii",
+        "privacy",
+        "reproducibility"
+      ]
+    }
+  ]
+}
