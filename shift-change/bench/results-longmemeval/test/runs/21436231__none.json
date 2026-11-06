@@ -1,0 +1,19 @@
+{
+ "question_id": "21436231",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99757,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+ "question_date": "2023/05/30 (Tue) 19:25",
+ "gold": "12",
+ "answer": "I don't have any information about your fishing trips. I'm a software engineering assistant without access to your personal records or memories.\n\nIf you have a file or document with your fishing trip data, I can help you look through it — just point me to it.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

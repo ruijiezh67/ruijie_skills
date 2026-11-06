@@ -1,0 +1,19 @@
+{
+ "question_id": "gpt4_fe651585_abs",
+ "question_type": "temporal-reasoning",
+ "abstention": true,
+ "condition": "none",
+ "history_chars": 99331,
+ "history_sessions": 13,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Who became a parent first, Tom or Alex?",
+ "question_date": "2023/03/17 (Fri) 03:09",
+ "gold": "The information provided is not enough. You mentioned Alex becoming a parent in January, but you didn't mention anything about Tom.",
+ "answer": "I don't have enough context to answer this. There's no information about \"Tom\" or \"Alex\" in our conversation or working directory that I can reference. Could you clarify who you're referring to? Are they characters in a file, public figures, or someone else?",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

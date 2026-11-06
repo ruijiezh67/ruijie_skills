@@ -25,7 +25,7 @@ RESULTS = os.path.join(HERE, "results")
 WORK = os.path.join(HERE, ".work")
 SCRIPT_DIR = os.path.join(REPO, "skills", "decoy", "scripts")
 sys.path.insert(0, SCRIPT_DIR)
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(REPO)), "shift-change", "bench"))  # local-only harness in the workspace
+sys.path.insert(0, os.path.join(os.path.dirname(REPO), "shift-change", "bench"))  # shared harness
 import decoy  # noqa: E402
 import run as harness  # noqa: E402
 

@@ -1,0 +1,19 @@
+{
+ "question_id": "7405e8b1",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99755,
+ "history_sessions": 14,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?",
+ "question_date": "2023/05/30 (Tue) 21:33",
+ "gold": "Yes.",
+ "answer": "Yes. You received a **40% discount** on your first HelloFresh order (mentioned in Session 2), compared to a **20% discount** on your UberEats order (mentioned in Session 9). So the HelloFresh discount was twice as high.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

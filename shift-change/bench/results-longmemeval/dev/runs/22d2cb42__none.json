@@ -1,0 +1,19 @@
+{
+ "question_id": "22d2cb42",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99803,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Where did I get my guitar serviced?",
+ "question_date": "2023/06/24 (Sat) 09:01",
+ "gold": "The music shop on Main St.",
+ "answer": "I don't have access to your personal information or history. I'm a software engineering assistant — I can help with code, files, and projects in your working directory, but I don't have any knowledge about your personal activities like guitar servicing.\n\nYou might want to check your email, bank/credit card statements, or local search history for that information.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "18bc8abd",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 98662,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What brand of BBQ sauce am I currently obsessed with?",
+ "question_date": "2023/07/15 (Sat) 07:37",
+ "gold": "Kansas City Masterpiece",
+ "answer": "I don't have any information about your BBQ sauce preferences. I'm a software engineering assistant without access to your personal details, browsing history, or previous conversations outside this session.\n\nIs there something I can help you with in your codebase?",
+ "verdict": "no",
+ "judge_raw": "no"
+}

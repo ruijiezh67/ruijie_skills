@@ -1,0 +1,19 @@
+{
+ "question_id": "7024f17c",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99813,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many hours of jogging and yoga did I do last week?",
+ "question_date": "2023/05/30 (Tue) 21:24",
+ "gold": "0.5 hours",
+ "answer": "The current working directory is empty — there are no files here containing exercise or activity data.\n\nI don't have access to your personal fitness or activity tracking information. To answer how many hours of jogging and yoga you did last week, I'd need:\n\n- A fitness tracker export (e.g., CSV/JSON from Garmin, Fitbit, Apple Health, Strava, etc.)\n- A spreadsheet or log file with your exercise records\n- Or some other data source you can point me to\n\nCould you share the relevant file or let me know where your exercise data is stored?",
+ "verdict": "no",
+ "judge_raw": "no"
+}

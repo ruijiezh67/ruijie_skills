@@ -1,0 +1,19 @@
+{
+ "question_id": "8b9d4367",
+ "question_type": "single-session-assistant",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 98587,
+ "history_sessions": 10,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I wanted to follow up on our previous conversation about private sector businesses in Chaudhary. Can you remind me of the company that employs over 40,000 people in the rug-manufacturing industry?",
+ "question_date": "2023/05/30 (Tue) 07:53",
+ "gold": "Jaipur Rugs",
+ "answer": "Based on our previous conversation (Session 7), the company is **Jaipur Rugs**. It employs over 40,000 people in the rug-manufacturing industry and provides training and employment opportunities to rural women, enabling them to become self-employed and improve their living standards.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

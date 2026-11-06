@@ -1,0 +1,19 @@
+{
+ "question_id": "e493bb7c",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99960,
+ "history_sessions": 13,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Where is the painting 'Ethereal Dreams' by Emma Taylor currently hanging?",
+ "question_date": "2023/11/18 (Sat) 19:24",
+ "gold": "in my bedroom",
+ "answer": "Based on the chat history, the painting \"Ethereal Dreams\" by Emma Taylor is currently hanging **above the user's bed in their bedroom**. \n\nIn Session 3 (July 11), the user mentioned it was above their living room sofa. By Session 7 (October 30), the user stated: \"I recently moved the 'Ethereal Dreams' painting by Emma Taylor above my bed,\" indicating they relocated it from the living room to the bedroom.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

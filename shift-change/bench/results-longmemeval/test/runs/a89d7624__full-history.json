@@ -1,0 +1,19 @@
+{
+ "question_id": "a89d7624",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99929,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+ "question_date": "2023/05/30 (Tue) 21:17",
+ "gold": "The user would prefer responses that take into account their previous experience in Denver, specifically their interest in live music and memorable encounter with Brandon Flowers. They might appreciate suggestions that revisit or build upon this experience, such as revisiting the same bar or exploring similar music venues in the area. The user may not prefer general tourist recommendations or activities unrelated to their interest in live music.",
+ "answer": "Based on our previous conversations, I know you love Denver's music scene — you had a great time at The Killers concert at Red Rocks and even met Brandon Flowers! Here are some suggestions building on that:\n\n**Music & Entertainment:**\n- **Red Rocks Amphitheatre** — Check the schedule for upcoming shows since you already love this venue\n- **The Ogden Theatre**, **Bluebird Theater**, **Fillmore Auditorium**, and **Larimer Lounge** for smaller, more intimate shows\n- **Twist & Shout Records** for vinyl browsing\n\n**Food (since you were eyeing BBQ spots last time):**\n- **GQue BBQ** in Golden and **Dinosaur Bar-B-Que** in Lakewood were on your list\n- **The Ship Rock Grille** near Red Rocks if you're catching a concert\n\n**Beyond Music:**\n- **Denver Art Museum** — World-class collection with striking architecture\n- **Union Station** — Great for dining, drinks, and people-watching in a beautifully restored train station\n- **Rocky Mountain National Park** — About 90 minutes from Denver, perfect for a day trip with hiking and scenic drives\n- **RiNo (River North Art District)** — Street art, craft breweries, and trendy restaurants\n- **Denver Beer Trail** — Denver is a craft beer capital with 100+ breweries\n- **16th Street Mall** — Pedestrian-friendly shopping and dining strip\n- **Coors Field** — Catch a Rockies game if the timing works out\n\nWould you like more details on any of these, or are you looking for something specific?",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

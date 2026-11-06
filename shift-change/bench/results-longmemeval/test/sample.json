@@ -1,0 +1,86 @@
+[
+ {
+  "question_id": "21436231",
+  "question_type": "single-session-user"
+ },
+ {
+  "question_id": "58bf7951",
+  "question_type": "single-session-user"
+ },
+ {
+  "question_id": "8550ddae",
+  "question_type": "single-session-user"
+ },
+ {
+  "question_id": "8b9d4367",
+  "question_type": "single-session-assistant"
+ },
+ {
+  "question_id": "ceb54acb",
+  "question_type": "single-session-assistant"
+ },
+ {
+  "question_id": "1de5cff2",
+  "question_type": "single-session-assistant"
+ },
+ {
+  "question_id": "1c0ddc50",
+  "question_type": "single-session-preference"
+ },
+ {
+  "question_id": "a89d7624",
+  "question_type": "single-session-preference"
+ },
+ {
+  "question_id": "8a2466db",
+  "question_type": "single-session-preference"
+ },
+ {
+  "question_id": "87f22b4a",
+  "question_type": "multi-session"
+ },
+ {
+  "question_id": "f35224e0",
+  "question_type": "multi-session"
+ },
+ {
+  "question_id": "b5ef892d",
+  "question_type": "multi-session"
+ },
+ {
+  "question_id": "e493bb7c",
+  "question_type": "knowledge-update"
+ },
+ {
+  "question_id": "ce6d2d27",
+  "question_type": "knowledge-update"
+ },
+ {
+  "question_id": "6a1eabeb",
+  "question_type": "knowledge-update"
+ },
+ {
+  "question_id": "08f4fc43",
+  "question_type": "temporal-reasoning"
+ },
+ {
+  "question_id": "gpt4_6dc9b45b",
+  "question_type": "temporal-reasoning"
+ },
+ {
+  "question_id": "4dfccbf7",
+  "question_type": "temporal-reasoning"
+ },
+ {
+  "question_id": "15745da0_abs",
+  "question_type": "single-session-user"
+ },
+ {
+  "question_id": "60bf93ed_abs",
+  "question_type": "multi-session"
+ },
+ {
+  "question_id": "gpt4_fe651585_abs",
+  "question_type": "temporal-reasoning"
+ }
+]

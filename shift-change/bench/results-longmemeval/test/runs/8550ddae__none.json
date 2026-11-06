@@ -1,0 +1,19 @@
+{
+ "question_id": "8550ddae",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 98338,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What type of cocktail recipe did I try last weekend?",
+ "question_date": "2023/05/30 (Tue) 23:51",
+ "gold": "lavender gin fizz",
+ "answer": "I don't have access to your personal history, memories, or past conversations. I'm a software engineering assistant without knowledge of your activities outside of our current session.\n\nIf you're working on a project related to cocktail recipes (like a recipe app or database), I'd be happy to help with that! Otherwise, you might want to check your browser history, notes, or messaging apps for that information.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

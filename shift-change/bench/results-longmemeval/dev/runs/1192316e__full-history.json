@@ -1,0 +1,19 @@
+{
+ "question_id": "1192316e",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99930,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What is the total time it takes I to get ready and commute to work?",
+ "question_date": "2023/05/30 (Tue) 19:00",
+ "gold": "an hour and a half",
+ "answer": "Based on the chat history:\n\n- **Getting ready**: 1 hour (includes a 20-minute meditation, a 30-minute workout, and a quick breakfast) — from Session 3\n- **Commute to work**: 30 minutes — from Session 1\n\n**Total: 1 hour and 30 minutes (90 minutes)**",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

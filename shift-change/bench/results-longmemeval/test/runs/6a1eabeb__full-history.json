@@ -1,0 +1,19 @@
+{
+ "question_id": "6a1eabeb",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99744,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What was my personal best time in the charity 5K run?",
+ "question_date": "2023/06/25 (Sun) 13:22",
+ "gold": "25 minutes and 50 seconds (or 25:50)",
+ "answer": "Based on the chat history, your personal best time in the charity 5K run was **25:50**, as mentioned in Session 8 (2023/05/30). \n\nEarlier, in Session 5 (2023/05/23), you had mentioned a personal best of **27:12**, so it appears you improved your time between those sessions.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

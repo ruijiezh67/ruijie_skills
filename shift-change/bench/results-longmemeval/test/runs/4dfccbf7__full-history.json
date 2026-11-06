@@ -1,0 +1,19 @@
+{
+ "question_id": "4dfccbf7",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 98642,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days had passed since I started taking ukulele lessons when I decided to take my acoustic guitar to the guitar tech for servicing?",
+ "question_date": "2023/04/01 (Sat) 00:42",
+ "gold": "24 days. 25 days (including the last day) is also acceptable.",
+ "answer": "Based on the chat history:\n\n- **Ukulele lessons started**: February 1, 2023 (Session 6 — \"I just started taking ukulele lessons with my friend Rachel **today**\")\n- **Guitar taken to Joe for servicing**: February 25, 2023 (Session 8 — \"I decided to take my Taylor GS Mini, to the guitar tech for servicing **today**\")\n\n**24 days** had passed.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

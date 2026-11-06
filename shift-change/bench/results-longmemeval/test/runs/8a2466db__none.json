@@ -1,0 +1,19 @@
+{
+ "question_id": "8a2466db",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99841,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Can you recommend some resources where I can learn more about video editing?",
+ "question_date": "2023/05/30 (Tue) 22:03",
+ "gold": "The user would prefer responses that suggest resources specifically tailored to Adobe Premiere Pro, especially those that delve into its advanced settings. They might not prefer general video editing resources or resources related to other video editing software.",
+ "answer": "Here are some well-regarded resources for learning video editing:\n\n**Free Online**\n- **DaVinci Resolve** — Free professional editor with extensive official training on Blackmagic Design's website\n- **YouTube channels** — Casey Faris (DaVinci Resolve), Justin Odisho (Premiere Pro), and Film Riot (general techniques)\n- **No Film School** (nofilmschool.com) — Articles and tutorials on editing and filmmaking\n\n**Courses**\n- **LinkedIn Learning** / **Skillshare** — Structured courses for Premiere Pro, Final Cut Pro, DaVinci Resolve\n- **Ripple Training** — Focused on Final Cut Pro\n\n**Software to start with**\n- **DaVinci Resolve** (free) — Industry-grade, great for beginners and pros\n- **CapCut** (free) — Simple, good for short-form content\n- **Adobe Premiere Pro** (paid) — Industry standard\n- **Final Cut Pro** (paid, Mac only)\n\n**Books**\n- *In the Blink of an Eye* by Walter Murch — Foundational theory on the art of editing\n- *The Technique of Film and Video Editing* by Ken Dancyger\n\nThe best way to learn is to pick one tool (DaVinci Resolve is a great free starting point), follow along with a beginner tutorial series, and start editing your own projects as soon as possible.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

@@ -74,7 +74,7 @@ On two single-turn scenarios, the current model avoided every planted trap witho
 
 There notary only costs you 2–3× the time and tokens. Use it for long sessions, re-runs and anything that gets reported more than once.
 
-**Method.** Scoring is deterministic: regexes over the reply against an answer key, no model judge. 3–6 runs per arm, Claude Code 2.1.310, Opus 5.5. Each arm is **isolated** from the operator's own CLAUDE.md, skills and plugins (see the [CHANGELOG](CHANGELOG.md) for why that mattered). The fixtures and their generation rules are in [`bench/scenarios/`](bench/scenarios/). These are small fixtures, not a broad benchmark. The drift eval is self-contained and re-runnable: `python notary/evals/drift/run_drift.py --repeats 6` (raw results of the 0.2.0 run: [`evals/drift/results-0.2.0.jsonl`](evals/drift/results-0.2.0.jsonl)). `bench/run.py` is the original multi-scenario harness; it needs a shared runner that is not in this repo yet.
+**Method.** Scoring is deterministic: regexes over the reply against an answer key, no model judge. 3–6 runs per arm, Claude Code 2.1.310, Opus 5.5. Each arm is **isolated** from the operator's own CLAUDE.md, skills and plugins (see the [CHANGELOG](CHANGELOG.md) for why that mattered). The fixtures and their generation rules are in [`bench/scenarios/`](bench/scenarios/). These are small fixtures, not a broad benchmark. The drift eval is self-contained and re-runnable: `python notary/evals/drift/run_drift.py --repeats 6` (raw results of the 0.2.0 run: [`evals/drift/results-0.2.0.jsonl`](evals/drift/results-0.2.0.jsonl)). `bench/run.py` is the original multi-scenario harness; it imports the shared runner in `shift-change/bench/run.py`.
 
 ## How it works
 

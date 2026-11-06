@@ -1,0 +1,19 @@
+{
+ "question_id": "6aeb4375_abs",
+ "question_type": "knowledge-update",
+ "abstention": true,
+ "condition": "full-history",
+ "history_chars": 99985,
+ "history_sessions": 10,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many Italian restaurants have I tried in my city?",
+ "question_date": "2023/06/15 (Thu) 13:37",
+ "gold": "The information provided is not enough. You mentioned trying Korean restaurants but not Italian restaurants.",
+ "answer": "Based on the chat history, you never mentioned trying any Italian restaurants. You did mention trying **Korean restaurants** — three in one session and four in another — and you also mentioned a **new Indian restaurant** in your neighborhood that you were planning to try. But there is no reference to Italian restaurants in any of the conversations.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "08f4fc43",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99161,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days had passed between the Sunday mass at St. Mary's Church and the Ash Wednesday service at the cathedral?",
+ "question_date": "2023/02/20 (Mon) 21:26",
+ "gold": "30 days. 31 days (including the last day) is also acceptable.",
+ "answer": "The working directory is empty and the git repo only has a bare \"start\" commit with no content files. There's no document, text, or data source here that mentions a Sunday mass at St. Mary's Church or an Ash Wednesday service at a cathedral.\n\nI don't have enough context to answer this question. Could you clarify:\n\n1. Are you referring to events described in a specific document, book, or dataset? If so, please point me to the file.\n2. Or are you asking about specific calendar dates? If so, which year and which specific Sunday?",
+ "verdict": "no",
+ "judge_raw": "no"
+}

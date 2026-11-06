@@ -1,0 +1,19 @@
+{
+ "question_id": "60bf93ed_abs",
+ "question_type": "multi-session",
+ "abstention": true,
+ "condition": "none",
+ "history_chars": 99935,
+ "history_sessions": 13,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days did it take for my iPad case to arrive after I bought it?",
+ "question_date": "2023/01/24 (Tue) 23:58",
+ "gold": "The information provided is not enough. You did not mention buying an iPad case.",
+ "answer": "I don't have access to your purchase or shipping history. This isn't something I can look up — you'd need to check your order confirmation email and delivery notification to calculate the difference in dates.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

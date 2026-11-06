@@ -1,0 +1,19 @@
+{
+ "question_id": "1192316e",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99930,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What is the total time it takes I to get ready and commute to work?",
+ "question_date": "2023/05/30 (Tue) 19:00",
+ "gold": "an hour and a half",
+ "answer": "The working directory appears to be empty, so there's no data file to reference.\n\nI don't have any information about your personal routine — how long it takes you to get ready or your commute time. This question is about your personal schedule, which I don't have access to.\n\nCould you provide the relevant details (e.g., a file with schedule data, or your getting-ready and commute times) so I can calculate the total?",
+ "verdict": "no",
+ "judge_raw": "no"
+}

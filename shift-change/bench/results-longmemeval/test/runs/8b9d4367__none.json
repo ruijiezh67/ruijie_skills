@@ -1,0 +1,19 @@
+{
+ "question_id": "8b9d4367",
+ "question_type": "single-session-assistant",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 98587,
+ "history_sessions": 10,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I wanted to follow up on our previous conversation about private sector businesses in Chaudhary. Can you remind me of the company that employs over 40,000 people in the rug-manufacturing industry?",
+ "question_date": "2023/05/30 (Tue) 07:53",
+ "gold": "Jaipur Rugs",
+ "answer": "I don't have access to any previous conversation — each session starts fresh without memory of prior chats. There are no handover notes or context files in the current working directory that I can reference.\n\nI also don't have reliable knowledge about a specific rug-manufacturing company in \"Chaudhary\" employing over 40,000 people, and I wouldn't want to guess and give you incorrect information.\n\nCould you provide more context, such as:\n- The full name or region you're referring to (e.g., Bhadohi/Mirzapur in India, or a district in Nepal)?\n- Any notes or files from your previous session?\n\nThat way I can help you find the accurate answer.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "80ec1f4f_abs",
+ "question_type": "multi-session",
+ "abstention": true,
+ "condition": "none",
+ "history_chars": 99335,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many different museums or galleries did I visit in December?",
+ "question_date": "2023/03/03 (Fri) 23:44",
+ "gold": "0. You did not mention visitng any museum in December",
+ "answer": "I'm unable to find any files in the current working directory (`none-exam`), and I don't have permission to search parent directories. \n\nI don't have access to any data about your museum or gallery visits. Could you:\n\n1. **Point me to the file** containing your visit history (e.g., a calendar export, spreadsheet, or journal file)?\n2. Or **clarify which data source** I should be looking at?\n\nWithout a data file to reference, I can't determine how many museums or galleries you visited in December.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

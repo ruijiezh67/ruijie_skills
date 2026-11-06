@@ -1,0 +1,19 @@
+{
+ "question_id": "b5ef892d",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99818,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days did I spend on camping trips in the United States this year?",
+ "question_date": "2023/04/29 (Sat) 23:45",
+ "gold": "8 days.",
+ "answer": "Based on the chat history, you went on **two camping trips** in the United States this year:\n\n1. **5-day camping trip** to Yellowstone National Park (last month, around March 2023) — mentioned in Session 6\n2. **3-day solo camping trip** to Big Sur in early April 2023 — mentioned in Session 7\n\nThat's a total of **8 days** spent on camping trips in the US.\n\n(Note: The 7-day family road trip to Utah in February was explicitly described as involving driving and hiking, \"but not camping.\")",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

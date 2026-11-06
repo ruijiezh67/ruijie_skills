@@ -1,0 +1,19 @@
+{
+ "question_id": "f4f1d8a4",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99126,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Who gave me a new stand mixer as a birthday gift?",
+ "question_date": "2023/05/30 (Tue) 20:29",
+ "gold": "my sister",
+ "answer": "I don't have access to your personal information, messages, or gift records. I'm a software engineering assistant and don't have knowledge about your birthday gifts or personal life.\n\nYou might want to check:\n- Thank-you notes or cards you received\n- Gift tags or packaging\n- Text/email conversations around your birthday\n- Ask family or friends directly",
+ "verdict": "no",
+ "judge_raw": "no"
+}

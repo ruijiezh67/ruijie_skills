@@ -1,0 +1,19 @@
+{
+ "question_id": "ceb54acb",
+ "question_type": "single-session-assistant",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99742,
+ "history_sessions": 14,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "In our previous chat, you suggested 'sexual compulsions' and a few other options for alternative terms for certain behaviors. Can you remind me what the other four options were?",
+ "question_date": "2023/05/30 (Tue) 22:56",
+ "gold": "I suggested 'sexual fixations', 'problematic sexual behaviors', 'sexual impulsivity', and 'compulsive sexuality'.",
+ "answer": "I don't have access to previous conversations. Each session starts fresh with no memory of prior chats, so I can't recall what options were suggested before.\n\nIf you can share the context — what behaviors or terms you were looking for alternatives to — I'm happy to help brainstorm options again.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

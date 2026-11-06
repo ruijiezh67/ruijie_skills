@@ -1,0 +1,19 @@
+{
+ "question_id": "1c0ddc50",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99823,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Can you suggest some activities I can do during my commute to work?",
+ "question_date": "2023/05/30 (Tue) 13:09",
+ "gold": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+ "answer": "Here are some ideas:\n\n- **Listen to podcasts or audiobooks** — great for learning or entertainment hands-free\n- **Read** (if on public transit) — books, articles, or newsletters\n- **Learn a language** — apps like Duolingo work well in short sessions\n- **Plan your day** — review your calendar and prioritize tasks\n- **Listen to music or curated playlists** — set the tone for your day\n- **Meditate or do breathing exercises** — apps like Headspace have commute-length sessions\n- **Catch up on news** — via apps, podcasts, or radio\n- **Journal or take notes** — voice memos if driving, written if on transit\n\nThe best options depend on whether you're driving, on public transit, walking, or biking. Let me know if you'd like suggestions tailored to your specific commute type!",
+ "verdict": "no",
+ "judge_raw": "no"
+}

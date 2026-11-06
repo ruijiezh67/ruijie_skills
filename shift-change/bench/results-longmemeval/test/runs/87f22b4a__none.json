@@ -1,0 +1,19 @@
+{
+ "question_id": "87f22b4a",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99947,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How much have I made from selling eggs this month?",
+ "question_date": "2023/05/30 (Tue) 09:50",
+ "gold": "$120",
+ "answer": "I don't have access to any egg sales data in your working directory — it appears to be empty. I don't have information about your personal egg sales.\n\nTo help you, I'd need you to point me to a file (spreadsheet, CSV, database, etc.) that contains your egg sales records. Could you share the path to your sales data?",
+ "verdict": "no",
+ "judge_raw": "no"
+}

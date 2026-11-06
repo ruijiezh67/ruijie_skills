@@ -1,0 +1,19 @@
+{
+ "question_id": "15745da0_abs",
+ "question_type": "single-session-user",
+ "abstention": true,
+ "condition": "none",
+ "history_chars": 99552,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How long have I been collecting vintage films?",
+ "question_date": "2023/05/30 (Tue) 23:02",
+ "gold": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+ "answer": "I don't have any information about your vintage film collection. I'm a software engineering assistant with access to your local codebase and tools — I don't have knowledge of your personal hobbies or history.\n\nYou might be thinking of a conversation with a different assistant, or perhaps this information is stored somewhere specific you'd like me to look for?",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

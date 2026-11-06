@@ -5,7 +5,7 @@
     "url": "https://github.com/ruijiezh67"
   },
   "metadata": {
-    "description": "Agent skills that make an agent's output checkable: numbers with receipts, fake data that can't be mistaken for real."
+    "description": "Agent skills that make an agent's work checkable: numbers with receipts, fake data that can't pass for real, handovers verified by a fresh agent, run settings shown before a costly run, and work planned around usage limits."
   },
   "plugins": [
     {
@@ -32,6 +32,41 @@
         "pii",
         "privacy",
         "reproducibility"
+      ]
+    },
+    {
+      "name": "shift-change",
+      "source": "./shift-change",
+      "category": "productivity",
+      "description": "I-PASS handovers for coding agents: /shift-change hands your session to the next one and quizzes a fresh agent on it, /shift-start reads it back before acting, /shift-recover rebuilds a session that ended without one, /shift-brief packages a task for a collaborator.",
+      "tags": [
+        "handoff",
+        "context",
+        "memory",
+        "sessions"
+      ]
+    },
+    {
+      "name": "runcard",
+      "source": "./runcard",
+      "category": "productivity",
+      "description": "Before training, a sweep, a cluster submission or any costly command, runcard resolves every setting it will actually use, says where each came from, flags quietly wrong combinations, and asks once.",
+      "tags": [
+        "ml",
+        "experiments",
+        "configuration",
+        "safety"
+      ]
+    },
+    {
+      "name": "runway",
+      "source": "./runway",
+      "category": "productivity",
+      "description": "Reads the status line rate limits (5-hour and 7-day windows), measures burn rate, and orders the backlog so heavy tasks land in fresh headroom and long non-model jobs run during the lockout. v0 prototype.",
+      "tags": [
+        "usage-limits",
+        "planning",
+        "rate-limits"
       ]
     }
   ]

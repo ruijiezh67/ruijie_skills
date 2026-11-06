@@ -1,0 +1,19 @@
+{
+ "question_id": "08e075c7",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99031,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How long have I been using my Fitbit Charge 3?",
+ "question_date": "2023/09/04 (Mon) 17:07",
+ "gold": "9 months",
+ "answer": "Based on your chat history, in Session 11 (2023/09/02) you mentioned you've been using your Fitbit Charge 3 for **9 months**. Since the current date is 2023/09/04, just two days later, it's still approximately 9 months.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "runcard",
+  "version": "0.1.0",
+  "description": "Shows exactly what an expensive command will run with, tagged by where each setting came from, before it runs.",
+  "author": {
+    "name": "Ruijie Zheng",
+    "url": "https://github.com/ruijiezh67"
+  },
+  "homepage": "https://github.com/ruijiezh67/ruijie_skills/tree/main/runcard",
+  "repository": "https://github.com/ruijiezh67/ruijie_skills",
+  "license": "MIT",
+  "keywords": [
+    "experiments",
+    "gpu",
+    "confirmation",
+    "preflight",
+    "research",
+    "guardrails"
+  ]
+}

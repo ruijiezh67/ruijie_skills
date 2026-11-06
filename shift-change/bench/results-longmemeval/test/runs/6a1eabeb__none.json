@@ -1,0 +1,19 @@
+{
+ "question_id": "6a1eabeb",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99744,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What was my personal best time in the charity 5K run?",
+ "question_date": "2023/06/25 (Sun) 13:22",
+ "gold": "25 minutes and 50 seconds (or 25:50)",
+ "answer": "I don't have any information about your personal best time in a charity 5K run. This isn't something that would be stored in your codebase or project files, and I don't have access to your personal records, fitness apps, or race results.\n\nYou might find that information in:\n- A race results website (e.g., the event organizer's site)\n- A fitness tracking app (Strava, Garmin, Nike Run Club, etc.)\n- A personal log or email confirmation from the event",
+ "verdict": "no",
+ "judge_raw": "no"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "b5ef892d",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99818,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days did I spend on camping trips in the United States this year?",
+ "question_date": "2023/04/29 (Sat) 23:45",
+ "gold": "8 days.",
+ "answer": "I don't have access to any files containing your camping trip data. I don't have information about your personal travel history — I'm a software engineering assistant without access to your calendars, travel records, or personal documents.\n\nTo answer this question, you'd need to check your own records, such as:\n- A travel calendar or planner\n- Booking confirmations (email, apps like Hipcamp, Recreation.gov, etc.)\n- A personal spreadsheet or journal\n\nIf you have a file with your trip data that you'd like me to analyze, feel free to share it and I can help calculate the total days.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

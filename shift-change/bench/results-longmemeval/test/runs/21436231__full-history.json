@@ -1,0 +1,19 @@
+{
+ "question_id": "21436231",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99757,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+ "question_date": "2023/05/30 (Tue) 19:25",
+ "gold": "12",
+ "answer": "Based on Session 1, you caught **12 largemouth bass** on your last trip to Lake Michigan.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

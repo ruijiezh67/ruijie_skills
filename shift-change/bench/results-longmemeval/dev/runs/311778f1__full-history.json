@@ -1,0 +1,19 @@
+{
+ "question_id": "311778f1",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99752,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many hours did I spend watching documentaries on Netflix last month?",
+ "question_date": "2023/05/30 (Tue) 15:40",
+ "gold": "10",
+ "answer": "Based on your chat history (Session 6), you mentioned that you spent **10 hours** last month watching documentaries on Netflix, and noted it was a bit more than you expected.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

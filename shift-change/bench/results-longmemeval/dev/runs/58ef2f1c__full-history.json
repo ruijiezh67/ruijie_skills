@@ -1,0 +1,19 @@
+{
+ "question_id": "58ef2f1c",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99069,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "When did I volunteer at the local animal shelter's fundraising dinner?",
+ "question_date": "2023/04/02 (Sun) 23:49",
+ "gold": "February 14th",
+ "answer": "Based on the chat history (Session 9), you volunteered at the **\"Love is in the Air\" fundraising dinner on Valentine's Day (February 14th)**. You mentioned it was \"back in February\" and later referred to it as being \"back on Valentine's Day.\"",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

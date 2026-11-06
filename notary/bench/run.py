@@ -29,7 +29,7 @@ RESULTS = os.path.join(HERE, "results")
 WORK = os.path.join(HERE, ".work")
 SCRIPT = os.path.join(REPO, "skills", "notary", "scripts", "notary.py")
 sys.path.insert(0, os.path.dirname(SCRIPT))
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(REPO)), "shift-change", "bench"))  # local-only harness in the workspace
+sys.path.insert(0, os.path.join(os.path.dirname(REPO), "shift-change", "bench"))  # shared harness
 import notary  # noqa: E402
 import run as harness  # noqa: E402  claude(), git(), rmtree(), dump(), log(), LIMIT
 

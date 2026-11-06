@@ -1,0 +1,19 @@
+{
+ "question_id": "89527b6b",
+ "question_type": "single-session-assistant",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99042,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I'm going back to our previous conversation about the children's book on dinosaurs. Can you remind me what color was the scaly body of the Plesiosaur in the image?",
+ "question_date": "2023/05/30 (Tue) 23:39",
+ "gold": "The Plesiosaur had a blue scaly body.",
+ "answer": "Based on the children's book from Session 3, the Plesiosaur had a **blue** scaly body.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

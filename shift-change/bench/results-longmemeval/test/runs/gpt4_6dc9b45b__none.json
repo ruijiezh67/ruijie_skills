@@ -1,0 +1,19 @@
+{
+ "question_id": "gpt4_6dc9b45b",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99841,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many months ago did I attend the Seattle International Film Festival?",
+ "question_date": "2021/10/02 (Sat) 03:56",
+ "gold": "4 months ago",
+ "answer": "I don't have any information about your personal schedule or when you attended the Seattle International Film Festival. Could you tell me when you went, or point me to a file/calendar that has that information?",
+ "verdict": "no",
+ "judge_raw": "no"
+}

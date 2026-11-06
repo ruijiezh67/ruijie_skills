@@ -1,0 +1,19 @@
+{
+ "question_id": "89527b6b",
+ "question_type": "single-session-assistant",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99042,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I'm going back to our previous conversation about the children's book on dinosaurs. Can you remind me what color was the scaly body of the Plesiosaur in the image?",
+ "question_date": "2023/05/30 (Tue) 23:39",
+ "gold": "The Plesiosaur had a blue scaly body.",
+ "answer": "I don't have access to any previous conversations. Each conversation I have starts fresh — I don't retain memory between sessions. So I'm unable to recall details about a children's book on dinosaurs or an image of a Plesiosaur from a prior chat.\n\nIf you have the image file, you can share its path and I can view it for you. Otherwise, you may want to check your conversation history in the app where we previously discussed it.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

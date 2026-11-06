@@ -1,0 +1,19 @@
+{
+ "question_id": "b29f3365",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99785,
+ "history_sessions": 13,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How long had I been taking guitar lessons when I bought the new guitar amp?",
+ "question_date": "2023/05/25 (Thu) 19:07",
+ "gold": "Four weeks",
+ "answer": "I don't have any context about your personal guitar lessons or guitar amp purchase. I don't have access to your personal history, calendars, or purchase records.\n\nIs there a file or document in your project that contains this information? If so, point me to it and I can help answer your question.",
+ "verdict": "no",
+ "judge_raw": "no"
+}
