@@ -1,0 +1,19 @@
+{
+ "question_id": "60bf93ed_abs",
+ "question_type": "multi-session",
+ "abstention": true,
+ "condition": "full-history",
+ "history_chars": 99935,
+ "history_sessions": 13,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days did it take for my iPad case to arrive after I bought it?",
+ "question_date": "2023/01/24 (Tue) 23:58",
+ "gold": "The information provided is not enough. You did not mention buying an iPad case.",
+ "answer": "Based on the provided chat history, there is no mention of an iPad case being purchased or delivered in any of the sessions. The question cannot be answered from the available information.\n\nThe closest item mentioned is a **laptop backpack**, which was bought from Amazon on **1/15** and arrived on **1/20** (5 days), but that is not an iPad case.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

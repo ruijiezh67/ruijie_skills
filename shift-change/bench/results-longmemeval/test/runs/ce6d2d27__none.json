@@ -1,0 +1,19 @@
+{
+ "question_id": "ce6d2d27",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99808,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What day of the week do I take a cocktail-making class?",
+ "question_date": "2023/07/15 (Sat) 22:19",
+ "gold": "Friday",
+ "answer": "I don't have any information about your personal schedule or a cocktail-making class. This isn't something I can find in your codebase or instructions. You'd need to check your own calendar or class confirmation for that.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

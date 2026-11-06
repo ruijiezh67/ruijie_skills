@@ -1,0 +1,19 @@
+{
+ "question_id": "18bc8abd",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 98662,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What brand of BBQ sauce am I currently obsessed with?",
+ "question_date": "2023/07/15 (Sat) 07:37",
+ "gold": "Kansas City Masterpiece",
+ "answer": "Based on Session 8 (2023/06/30), you mentioned that you are currently obsessed with **Kansas City Masterpiece BBQ sauce** on your ribs.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "87f22b4a",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99947,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How much have I made from selling eggs this month?",
+ "question_date": "2023/05/30 (Tue) 09:50",
+ "gold": "$120",
+ "answer": "Based on your chat history, you mentioned on May 22 that you had sold **40 dozen eggs** so far this month, and on May 26 you mentioned selling eggs at **$3 a dozen**.\n\nThat comes out to **$120** (40 × $3) as of May 22. You may have sold more since then, but that's the latest figure from your conversations.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

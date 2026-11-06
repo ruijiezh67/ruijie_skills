@@ -1,0 +1,19 @@
+{
+ "question_id": "8a2466db",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99841,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Can you recommend some resources where I can learn more about video editing?",
+ "question_date": "2023/05/30 (Tue) 22:03",
+ "gold": "The user would prefer responses that suggest resources specifically tailored to Adobe Premiere Pro, especially those that delve into its advanced settings. They might not prefer general video editing resources or resources related to other video editing software.",
+ "answer": "Based on our earlier conversation about Adobe Premiere Pro and the Lumetri Color Panel, here are some resources to deepen your video editing skills:\n\n**YouTube Channels:**\n- **Premiere Bro** – tutorials focused on Premiere Pro workflows\n- **Video Copilot** – visual effects and motion graphics\n- **Adobe Creative Cloud** – official tutorials from Adobe\n- **Casey Faris** – beginner-friendly DaVinci Resolve and general editing tips\n- **Film Riot** – filmmaking and editing techniques\n\n**Online Course Platforms:**\n- **Udemy** – affordable, self-paced Premiere Pro courses\n- **LinkedIn Learning** (formerly Lynda.com) – structured courses on editing, color grading, and audio mixing\n- **Skillshare** – project-based classes on editing and storytelling\n\n**Communities and Forums:**\n- **Reddit's r/premierepro** and **r/videoediting** – great for troubleshooting and tips\n- **Adobe's Premiere Pro forum** – official community support\n\n**Official Documentation:**\n- **Adobe's Help Center** – detailed guides on every Premiere Pro feature, including the Lumetri Color Panel tools we discussed (Color Wheels, Curves, Creative panel, etc.)\n\nSince you mentioned you enjoy using Premiere Pro and have been exploring color grading, I'd especially recommend looking for courses or tutorials specifically on color grading workflows — they'll build nicely on what you've already been learning with the Lumetri tools.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

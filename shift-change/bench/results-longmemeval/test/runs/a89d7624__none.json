@@ -1,0 +1,19 @@
+{
+ "question_id": "a89d7624",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99929,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+ "question_date": "2023/05/30 (Tue) 21:17",
+ "gold": "The user would prefer responses that take into account their previous experience in Denver, specifically their interest in live music and memorable encounter with Brandon Flowers. They might appreciate suggestions that revisit or build upon this experience, such as revisiting the same bar or exploring similar music venues in the area. The user may not prefer general tourist recommendations or activities unrelated to their interest in live music.",
+ "answer": "Here are some highlights for a Denver trip:\n\n**Outdoors**\n- Red Rocks Park & Amphitheatre — iconic venue, great for concerts or just hiking the trails\n- Rocky Mountain National Park — about 1.5 hrs away, well worth a day trip\n- Mount Evans/Elbert scenic byway for high-altitude driving\n\n**In the City**\n- Union Station area — restaurants, bars, shops in a beautifully restored train station\n- Denver Art Museum — striking architecture and strong Western art collection\n- Larimer Square — historic block with dining and nightlife\n- RiNo (River North Art District) — street art, breweries, and galleries\n\n**Beer**\n- Denver is a craft beer capital. Great Divide, Ratio Beerworks, and Cerebral Brewing are popular stops\n- Denver Beer Trail if you want a structured crawl\n\n**Food**\n- Try green chile — it's a Colorado staple (Santiago's or El Taco de Mexico are local favorites)\n- The Source and Denver Central Market are food halls worth visiting\n\n**Tips**\n- Altitude is ~5,280 ft — drink extra water, especially the first day or two\n- Weather can shift fast, so layers are smart even in summer\n\nEnjoy the trip! Let me know if you have any software engineering questions I can help with.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

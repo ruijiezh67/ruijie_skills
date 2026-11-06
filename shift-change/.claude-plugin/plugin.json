@@ -1,0 +1,19 @@
+{
+  "name": "shift-change",
+  "version": "0.1.0",
+  "description": "I-PASS handovers for coding agents, verified by a fresh-agent exam.",
+  "author": {
+    "name": "Ruijie Zheng",
+    "url": "https://github.com/ruijiezh67"
+  },
+  "homepage": "https://github.com/ruijiezh67/ruijie_skills/tree/main/shift-change",
+  "repository": "https://github.com/ruijiezh67/ruijie_skills",
+  "license": "MIT",
+  "keywords": [
+    "handover",
+    "handoff",
+    "context",
+    "session",
+    "research"
+  ]
+}

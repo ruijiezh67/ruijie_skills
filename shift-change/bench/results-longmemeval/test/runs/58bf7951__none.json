@@ -1,0 +1,19 @@
+{
+ "question_id": "58bf7951",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99522,
+ "history_sessions": 14,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What play did I attend at the local community theater?",
+ "question_date": "2023/05/30 (Tue) 22:53",
+ "gold": "The Glass Menagerie",
+ "answer": "I don't have any information about your personal activities. I'm an AI assistant without access to your personal history or memories.\n\nIf there's a file in your current workspace that contains this information, I can help you find it. Would you like me to search the files in your working directory?",
+ "verdict": "no",
+ "judge_raw": "no"
+}

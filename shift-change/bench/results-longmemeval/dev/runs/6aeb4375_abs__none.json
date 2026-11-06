@@ -1,0 +1,19 @@
+{
+ "question_id": "6aeb4375_abs",
+ "question_type": "knowledge-update",
+ "abstention": true,
+ "condition": "none",
+ "history_chars": 99985,
+ "history_sessions": 10,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many Italian restaurants have I tried in my city?",
+ "question_date": "2023/06/15 (Thu) 13:37",
+ "gold": "The information provided is not enough. You mentioned trying Korean restaurants but not Italian restaurants.",
+ "answer": "I don't have access to your personal dining history, location, or any restaurant tracking data. I'm a software engineering assistant without knowledge of your personal experiences.\n\nIf you track restaurant visits in an app, spreadsheet, or file, I'd be happy to help you query or analyze that data — just point me to it.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "gpt4_fa19884d",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99734,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What is the artist that I started to listen to last Friday?",
+ "question_date": "2023/04/05 (Wed) 19:25",
+ "gold": "a bluegrass band that features a banjo player",
+ "answer": "Based on **Session 9** (dated 2023/03/31, Friday), you mentioned that you **recently discovered a bluegrass band that features a banjo player** and started enjoying their music that day. However, you did not specify the name of the band in the conversation.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

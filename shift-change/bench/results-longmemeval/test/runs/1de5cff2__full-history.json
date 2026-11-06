@@ -1,0 +1,19 @@
+{
+ "question_id": "1de5cff2",
+ "question_type": "single-session-assistant",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99734,
+ "history_sessions": 10,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I was going through our previous conversation about high-end fashion brands, and I was wondering if you could remind me of the brand that uses wild rubber sourced from the Amazon rainforest?",
+ "question_date": "2023/05/30 (Tue) 19:49",
+ "gold": "Veja",
+ "answer": "Based on our previous conversation (Session 9), the brand is **Veja** — a French brand that produces eco-friendly sneakers using organic cotton, recycled plastic bottles, and wild rubber sourced from the Amazon rainforest.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

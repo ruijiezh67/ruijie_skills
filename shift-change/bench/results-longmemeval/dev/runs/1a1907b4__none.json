@@ -1,0 +1,19 @@
+{
+ "question_id": "1a1907b4",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99914,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I've been thinking about making a cocktail for an upcoming get-together, but I'm not sure which one to choose. Any suggestions?",
+ "question_date": "2023/05/30 (Tue) 22:31",
+ "gold": "Considering their mixology class background, the user would prefer cocktail suggestions that build upon their existing skills and interests, such as creative variations of classic cocktails or innovative twists on familiar flavors. They might appreciate recommendations that incorporate their experience with refreshing summer drinks like Pimm's Cup. The user would not prefer overly simplistic or basic cocktail recipes, and may not be interested in suggestions that don't take into account their mixology class background.",
+ "answer": "Here are a few crowd-pleasing cocktails that work well for get-togethers:\n\n**Easy & Batch-Friendly**\n- **Aperol Spritz** — Aperol, prosecco, soda water. Light, refreshing, minimal prep.\n- **Margarita** — Tequila, lime juice, triple sec. Easy to batch in a pitcher.\n- **Sangria** — Wine, fruit, brandy, a splash of soda. Make it ahead and let it sit.\n\n**Classic & Crowd-Pleasing**\n- **Moscow Mule** — Vodka, ginger beer, lime. Simple and universally liked.\n- **Mojito** — Rum, mint, lime, sugar, soda. Fresh and fun, especially in warm weather.\n- **Old Fashioned** — Bourbon, sugar, bitters, orange peel. A timeless choice if the crowd leans that way.\n\n**Tips for a party:**\n- Batch cocktails save you from playing bartender all night.\n- Offer a non-alcoholic version (mocktail) of whatever you pick.\n- Pre-cut garnishes and pre-squeeze citrus before guests arrive.\n\nThat said, this is a bit outside my wheelhouse — I'm best at software engineering tasks! For more detailed recipes and pairing ideas, a food/drink site or app would serve you better.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "0ddfec37_abs",
+ "question_type": "knowledge-update",
+ "abstention": true,
+ "condition": "none",
+ "history_chars": 99812,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many autographed football have I added to my collection in the first three months of collection?",
+ "question_date": "2023/06/07 (Wed) 08:31",
+ "gold": "The information provided is not enough. You mentioned collecting autographed baseball but not football.",
+ "answer": "The working directory (`none-exam`) is empty — there are no files here containing collection data.\n\nI don't have access to any information about your autographed football collection. This question appears to be a personal/knowledge question rather than a software engineering task, and there are no data files in the current directory for me to reference.\n\nCould you provide a file or dataset that contains your collection records? Or if this question is related to a specific application or database, please point me to the relevant files.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

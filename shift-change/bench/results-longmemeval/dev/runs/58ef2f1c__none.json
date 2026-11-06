@@ -1,0 +1,19 @@
+{
+ "question_id": "58ef2f1c",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99069,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "When did I volunteer at the local animal shelter's fundraising dinner?",
+ "question_date": "2023/04/02 (Sun) 23:49",
+ "gold": "February 14th",
+ "answer": "The working directory is empty, and I don't have access to your personal calendar, emails, or other records that would contain this information. I have no way to look up when you volunteered at a local animal shelter's fundraising dinner.\n\nYou might find this information by checking:\n- Your personal calendar (Google Calendar, Outlook, etc.)\n- Email correspondence with the shelter\n- Social media posts from around that time\n- Photos on your phone (check the date/location metadata)",
+ "verdict": "no",
+ "judge_raw": "no"
+}

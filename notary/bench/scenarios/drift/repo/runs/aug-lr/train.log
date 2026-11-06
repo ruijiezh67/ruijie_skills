@@ -1,0 +1,11 @@
+epoch 1 | train_loss 1.1032 | val_acc 0.6620 | 402s
+epoch 2 | train_loss 0.7411 | val_acc 0.7493 | 398s
+epoch 3 | train_loss 0.5527 | val_acc 0.7981 | 401s
+epoch 4 | train_loss 0.4410 | val_acc 0.8205 | 399s
+epoch 5 | train_loss 0.3702 | val_acc 0.8317 | 403s
+epoch 6 | train_loss 0.3121 | val_acc 0.8391 | 400s
+epoch 7 | step 112/310
+Traceback (most recent call last):
+  File "train.py", line 88, in <module>
+    loss.backward()
+RuntimeError: CUDA out of memory. Tried to allocate 1.50 GiB (GPU 0; 23.65 GiB total capacity; 21.90 GiB already allocated)

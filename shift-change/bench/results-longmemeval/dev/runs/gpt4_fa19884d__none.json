@@ -1,0 +1,19 @@
+{
+ "question_id": "gpt4_fa19884d",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99734,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What is the artist that I started to listen to last Friday?",
+ "question_date": "2023/04/05 (Wed) 19:25",
+ "gold": "a bluegrass band that features a banjo player",
+ "answer": "I don't have access to your music listening history or any streaming service accounts (like Spotify, Apple Music, etc.), so I can't determine what artist you started listening to last Friday.\n\nYou could check:\n- Your streaming app's recently played or listening history\n- Any playlists you created or followed around that date\n- Your browser history if you discovered the artist online\n\nIs there something else I can help you with?",
+ "verdict": "no",
+ "judge_raw": "no"
+}

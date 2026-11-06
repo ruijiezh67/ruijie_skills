@@ -1,0 +1,8 @@
+.runcard/
+__pycache__/
+*.pyc
+bench/.work/
+bench/results/*.log
+# raw scenario and results with a non-English request: kept local, not published
+bench/results*/
+bench/scenarios/clip-rerun/

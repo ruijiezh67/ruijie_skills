@@ -1,0 +1,10 @@
+bench/.work/
+bench/results/*/build.json
+bench/results*/*.log
+__pycache__/
+*.pyc
+.shift/
+# raw fixtures and results with a non-English transcript: kept local, not published
+bench/results/
+bench/sessions/
+bench/results-longmemeval/test/runs/21436231__compact.json

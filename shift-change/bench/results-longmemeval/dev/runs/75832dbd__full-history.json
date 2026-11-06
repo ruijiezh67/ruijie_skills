@@ -1,0 +1,19 @@
+{
+ "question_id": "75832dbd",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 98680,
+ "history_sessions": 10,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Can you recommend some recent publications or conferences that I might find interesting?",
+ "question_date": "2023/05/30 (Tue) 13:53",
+ "gold": "The user would prefer suggestions related to recent research papers, articles, or conferences that focus on artificial intelligence in healthcare, particularly those that involve deep learning for medical image analysis. They would not be interested in general AI topics or those unrelated to healthcare.",
+ "answer": "Based on our earlier conversation about deep learning for medical image analysis, here are some publications and conferences you might find interesting:\n\n**Top Conferences:**\n\n1. **MICCAI (Medical Image Computing and Computer Assisted Intervention)** — The premier conference in the field, covering segmentation, registration, explainability, and more.\n2. **ISBI (IEEE International Symposium on Biomedical Imaging)** — Focuses on biomedical imaging techniques, including deep learning methods.\n3. **MIDL (Medical Imaging with Deep Learning)** — A newer conference specifically dedicated to deep learning in medical imaging.\n4. **CVPR / ICCV / ECCV** — Top computer vision conferences that regularly feature medical imaging workshops and papers on domain adaptation, multi-modal fusion, and explainability.\n5. **NeurIPS / ICML** — Machine learning conferences with growing tracks on healthcare and medical imaging applications.\n\n**Journals and Publications:**\n\n1. **IEEE Transactions on Medical Imaging** — A leading journal for medical imaging research.\n2. **Medical Image Analysis (MedIA)** — High-impact journal focused specifically on the field.\n3. **Nature Medicine / Nature Biomedical Engineering** — For clinically impactful AI work.\n4. **The Lancet Digital Health** — Covers AI applications in healthcare broadly.\n5. **Radiology: Artificial Intelligence** — Focused on AI in radiology practice.\n\n**Preprint Sources:**\n\n- **arXiv (cs.CV, eess.IV)** — For the latest papers on explainable AI, domain adaptation, and multi-modal fusion before formal publication.\n\nGiven your interest in explainable AI and visualization techniques for deep learning models, I'd especially recommend keeping an eye on **MIDL** and the XAI workshops at **MICCAI**, as these have been producing strong work in that area.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

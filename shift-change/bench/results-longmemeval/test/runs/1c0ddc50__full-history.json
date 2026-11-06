@@ -1,0 +1,19 @@
+{
+ "question_id": "1c0ddc50",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99823,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Can you suggest some activities I can do during my commute to work?",
+ "question_date": "2023/05/30 (Tue) 13:09",
+ "gold": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+ "answer": "Based on your chat history, here are some activities you can do during your **40-minute commute**:\n\n1. **Listen to podcasts** — You already enjoy true crime and self-improvement podcasts, and you were planning to dive into history and science ones like **Hardcore History**, **Lore**, **The Dollop**, **StarTalk Radio**, **Radiolab**, and **Stuff You Should Know**. That's a great way to use your commute time.\n\n2. **Listen to movie soundtracks** — You mentioned having a Spotify playlist dedicated to movie soundtracks, especially Hans Zimmer scores, which help you focus. This could be a great way to mentally prepare for work on the way in, or decompress on the way home.\n\n3. **Listen to audiobooks** — Since you were interested in books like *Guns, Germs, and Steel* by Jared Diamond, you could listen to audiobook versions during your commute instead of (or in addition to) reading them at home.\n\n4. **Practice public speaking** — You mentioned wanting to join a public speaking group like Toastmasters. You could use your commute to mentally rehearse speeches or listen to public speaking tips.\n\n5. **Plan your day / reflect** — Use the morning commute to organize your thoughts and priorities, and the evening commute to reflect on what went well.\n\n6. **Use the Closet app** — Since you just started using it to organize your wardrobe, you could log outfits or plan what to wear during downtime on your commute (if you're not driving).\n\nAre you driving or taking public transit? That would help me tailor the suggestions further.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

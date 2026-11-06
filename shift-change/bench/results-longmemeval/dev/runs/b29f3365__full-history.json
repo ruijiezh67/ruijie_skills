@@ -1,0 +1,19 @@
+{
+ "question_id": "b29f3365",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99785,
+ "history_sessions": 13,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How long had I been taking guitar lessons when I bought the new guitar amp?",
+ "question_date": "2023/05/25 (Thu) 19:07",
+ "gold": "Four weeks",
+ "answer": "Based on the chat history, you mentioned in Session 8 that you had been taking weekly guitar lessons with your instructor Alex for **six weeks**, and that you bought the new guitar amp **two weeks ago**. That means you had been taking guitar lessons for about **4 weeks** when you bought the new amp.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

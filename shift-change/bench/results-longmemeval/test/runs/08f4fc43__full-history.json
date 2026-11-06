@@ -1,0 +1,19 @@
+{
+ "question_id": "08f4fc43",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99161,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days had passed between the Sunday mass at St. Mary's Church and the Ash Wednesday service at the cathedral?",
+ "question_date": "2023/02/20 (Mon) 21:26",
+ "gold": "30 days. 31 days (including the last day) is also acceptable.",
+ "answer": "Based on the chat history:\n\n- **Sunday mass at St. Mary's Church**: January 2nd (Session 7)\n- **Ash Wednesday service at the cathedral**: February 1st (Session 5)\n\nFrom January 2nd to February 1st is **30 days**.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

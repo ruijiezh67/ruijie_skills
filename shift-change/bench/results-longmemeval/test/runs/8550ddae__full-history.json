@@ -1,0 +1,19 @@
+{
+ "question_id": "8550ddae",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 98338,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What type of cocktail recipe did I try last weekend?",
+ "question_date": "2023/05/30 (Tue) 23:51",
+ "gold": "lavender gin fizz",
+ "answer": "Based on Session 2 (2023/05/22), you tried a **lavender gin fizz** recipe last weekend. You mentioned it didn't quite turn out as expected because you didn't have simple syrup, so you had to improvise with honey and water.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

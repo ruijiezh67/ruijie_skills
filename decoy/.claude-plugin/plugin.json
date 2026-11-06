@@ -1,0 +1,20 @@
+{
+  "name": "decoy",
+  "version": "0.2.0",
+  "description": "Fake data that can't be mistaken for real, and can be made again: reserved values from published standards, a seeded generator, a data card, and a linter.",
+  "author": {
+    "name": "Ruijie Zheng",
+    "url": "https://github.com/ruijiezh67"
+  },
+  "homepage": "https://github.com/ruijiezh67/ruijie_skills/tree/main/decoy",
+  "repository": "https://github.com/ruijiezh67/ruijie_skills",
+  "license": "MIT",
+  "keywords": [
+    "synthetic-data",
+    "test-data",
+    "fixtures",
+    "pii",
+    "privacy",
+    "reproducibility"
+  ]
+}

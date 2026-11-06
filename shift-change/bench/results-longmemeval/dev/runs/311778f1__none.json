@@ -1,0 +1,19 @@
+{
+ "question_id": "311778f1",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99752,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many hours did I spend watching documentaries on Netflix last month?",
+ "question_date": "2023/05/30 (Tue) 15:40",
+ "gold": "10",
+ "answer": "I don't have access to your Netflix account or viewing history, so I can't answer that question.\n\nTo find this information, you can:\n1. Go to **Netflix.com** > Profile icon > **Account** > **Viewing activity** to see your watch history.\n2. Request a copy of your data from Netflix's **Download your personal information** page under Privacy settings, which includes detailed viewing time data.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

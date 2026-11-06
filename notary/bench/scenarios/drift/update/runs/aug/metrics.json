@@ -1,0 +1,9 @@
+{
+  "split": "val",
+  "val_acc": 0.8533,
+  "val_macro_f1": 0.8215,
+  "best_epoch": 9,
+  "train_time_s": 4012,
+  "finished": "2026-10-26T02:05:51",
+  "note": "re-run with tokenizer fix"
+}

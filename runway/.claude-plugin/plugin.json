@@ -1,0 +1,19 @@
+{
+  "name": "runway",
+  "version": "0.0.1",
+  "description": "Plan work around your Claude usage limits: reads the live 5-hour and weekly windows, measures burn rate, and orders tasks so nothing stops halfway.",
+  "author": {
+    "name": "Ruijie Zheng",
+    "url": "https://github.com/ruijiezh67"
+  },
+  "homepage": "https://github.com/ruijiezh67/ruijie_skills/tree/main/runway",
+  "repository": "https://github.com/ruijiezh67/ruijie_skills",
+  "license": "MIT",
+  "keywords": [
+    "usage-limits",
+    "quota",
+    "planning",
+    "rate-limits",
+    "scheduling"
+  ]
+}

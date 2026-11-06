@@ -1,0 +1,19 @@
+{
+ "question_id": "4dfccbf7",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 98642,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days had passed since I started taking ukulele lessons when I decided to take my acoustic guitar to the guitar tech for servicing?",
+ "question_date": "2023/04/01 (Sat) 00:42",
+ "gold": "24 days. 25 days (including the last day) is also acceptable.",
+ "answer": "I don't have access to any personal notes, calendar, or diary that would contain information about when you started ukulele lessons or when you took your guitar for servicing. This seems like a personal question I can't answer from the codebase or tools available to me.\n\nDo you have a file or document somewhere that contains this information? If so, point me to it and I can look it up.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

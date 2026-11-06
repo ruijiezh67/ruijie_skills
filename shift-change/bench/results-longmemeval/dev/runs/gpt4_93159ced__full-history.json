@@ -1,0 +1,19 @@
+{
+ "question_id": "gpt4_93159ced",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 97281,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How long have I been working before I started my current job at NovaTech?",
+ "question_date": "2023/05/25 (Thu) 19:17",
+ "gold": "4 years and 9 months",
+ "answer": "Based on the chat history, in Session 4 you mentioned you've been **working professionally for 9 years**, and in Session 1 you said you've been **at NovaTech for about 4 years and 3 months**.\n\nSo before starting at NovaTech, you had been working for approximately **4 years and 9 months** (9 years total minus 4 years and 3 months at NovaTech).",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "ce6d2d27",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99808,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What day of the week do I take a cocktail-making class?",
+ "question_date": "2023/07/15 (Sat) 22:19",
+ "gold": "Friday",
+ "answer": "Based on the chat history, you mentioned two different days:\n\n- In **Session 2** (June 16), you said you have a cocktail-making class on **Thursday**.\n- In **Session 6** (June 30), you said you have a cocktail-making class on **Fridays**.\n\nThe most recent mention indicates **Friday**.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

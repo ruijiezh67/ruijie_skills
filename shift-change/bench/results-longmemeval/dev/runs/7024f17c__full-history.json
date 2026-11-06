@@ -1,0 +1,19 @@
+{
+ "question_id": "7024f17c",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99813,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many hours of jogging and yoga did I do last week?",
+ "question_date": "2023/05/30 (Tue) 21:24",
+ "gold": "0.5 hours",
+ "answer": "Based on the chat history, there is **no record of you completing any jogging or yoga sessions last week** (May 22–28).\n\nHere's what the history shows:\n\n- **Jogging**: Your only recorded jog was a 30-minute jog on **Saturday, May 20**, which was two weeks ago, not last week.\n- **Yoga**: As of May 22, you mentioned you'd been \"slacking off for this month\" on yoga. On May 23, you said you were \"hoping to get back into yoga this week, maybe by starting with just one or two sessions.\" However, there's no follow-up in the chat history confirming you actually completed any yoga sessions.\n\nSo based on the available information: **0 hours** of both jogging and yoga last week.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

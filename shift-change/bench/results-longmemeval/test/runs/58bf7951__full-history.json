@@ -1,0 +1,19 @@
+{
+ "question_id": "58bf7951",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99522,
+ "history_sessions": 14,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What play did I attend at the local community theater?",
+ "question_date": "2023/05/30 (Tue) 22:53",
+ "gold": "The Glass Menagerie",
+ "answer": "Based on the chat history (Session 9), you attended a production of **The Glass Menagerie** by Tennessee Williams at the local community theater. You mentioned being impressed by the lead actress's performance, noting she reminded you of your friend Emily, who is also an aspiring actress.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

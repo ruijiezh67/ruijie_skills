@@ -1,0 +1,19 @@
+{
+ "question_id": "gpt4_93159ced",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 97281,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How long have I been working before I started my current job at NovaTech?",
+ "question_date": "2023/05/25 (Thu) 19:17",
+ "gold": "4 years and 9 months",
+ "answer": "The current working directory is empty, and I don't have access to any files containing your personal employment history. I have no way to know how long you worked before starting at NovaTech.\n\nCould you provide more context? For example:\n- Is there a resume, CV, or data file somewhere I should look at?\n- Are you referring to data in a specific application or database?",
+ "verdict": "no",
+ "judge_raw": "no"
+}

@@ -1,0 +1,5 @@
+lr: 3.0e-5
+batch_size: 32
+epochs: 10
+augment: true
+aug_p: 0.3

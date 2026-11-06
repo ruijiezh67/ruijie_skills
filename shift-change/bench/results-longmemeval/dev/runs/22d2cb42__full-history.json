@@ -1,0 +1,19 @@
+{
+ "question_id": "22d2cb42",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99803,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Where did I get my guitar serviced?",
+ "question_date": "2023/06/24 (Sat) 09:01",
+ "gold": "The music shop on Main St.",
+ "answer": "Based on your chat history, you got your guitar serviced at **Rhythm Central**, a music shop on **Main St**. You mentioned that a friend recommended it for its good reputation for guitar servicing, and you later confirmed they're \"really good with guitar maintenance.\"",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

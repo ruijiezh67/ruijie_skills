@@ -1,0 +1,19 @@
+{
+ "question_id": "0e5e2d1a",
+ "question_type": "single-session-assistant",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99784,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I wanted to follow up on our previous conversation about binaural beats for anxiety and depression. Can you remind me how many subjects were in the study published in the journal Music and Medicine that found significant reductions in symptoms of depression, anxiety, and stress?",
+ "question_date": "2023/05/30 (Tue) 18:13",
+ "gold": "38 subjects",
+ "answer": "Based on our earlier conversation, the study published in the journal Music and Medicine involved **38 subjects** who listened to binaural beats for 30 minutes daily for three weeks, and found significant reductions in symptoms of depression, anxiety, and stress.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

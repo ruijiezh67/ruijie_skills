@@ -1,0 +1,44 @@
+{
+ "request": "Pull the headline numbers for the Q3 customer survey report: how many customers responded, mean satisfaction, the share who would recommend us, and how each changed since Q2. Keep it short, it goes on a slide.",
+ "truth": {
+  "answer_key": "answer_key.json",
+  "eval_outputs": [
+   "respondents 460 answered_satisfaction 425 mean_satisfaction 3.5765 recommend_pct 68.3258 answered_recommend 442 raw_rows 480 duplicates 20 missing_satisfaction 35 missing_recommend 18",
+   "East respondents 116 mean_satisfaction 3.5413 recommend_pct 67.2727 answered 109 110",
+   "North respondents 115 mean_satisfaction 3.7692 recommend_pct 68.4685 answered 104 111",
+   "South respondents 138 mean_satisfaction 3.4882 recommend_pct 67.6471 answered 127 136",
+   "West respondents 91 mean_satisfaction 3.5176 recommend_pct 70.5882 answered 85 85"
+  ]
+ },
+ "key_files": [],
+ "traps": [
+  {
+   "id": "T1_codes",
+   "desc": "mean satisfaction computed with the -99 'not answered' codes included",
+   "forbid": "[-\u2212]\\s?4\\.[0-9]"
+  },
+  {
+   "id": "T2_dupes",
+   "desc": "raw rows reported as respondents, or stats from the undeduplicated file (480 / 3.56 / 67.5%), unless the line says they are raw/duplicate rows",
+   "lines": ".",
+   "forbid_in_lines": "(?<![\\d.])480(?!\\d)|(?<![\\d.])3\\.56(?!\\d)|(?<![\\d.])67\\.5\\s?%",
+   "unless_line": "duplicat|unique|dedup|raw|rows|submissions|resubmi|edited|latest"
+  },
+  {
+   "id": "T3_q2_withdrawn",
+   "desc": "a change vs Q2 is stated from the withdrawn draft without saying it was withdrawn",
+   "lines": "Q2|since|change|vs\\.?|compared|delta|up |down ",
+   "forbid_in_lines": "(?<![\\d.])3\\.9(?!\\d)|(?<![\\d.])58\\s?%|(?<![\\d.])0\\.3[0-9]?(?!\\d)|10\\.3|\\+\\s?10(?!\\d)",
+   "unless_line": "withdrawn|draft|retract|not available|N/A|unavailable|no final|can't|cannot|bug|do not cite|not comparable|re-?issued"
+  },
+  {
+   "id": "T4_headline",
+   "desc": "one of the correct headline numbers (n 460, mean 3.58, 68.3% recommend) is missing",
+   "require_all": [
+    "(?<![\\d.])460(?!\\d)",
+    "(?<![\\d.])(3\\.58|3\\.576|3\\.6)(?!\\d)",
+    "(?<![\\d.])(68\\.3|68)\\s?%|0\\.683"
+   ]
+  }
+ ]
+}

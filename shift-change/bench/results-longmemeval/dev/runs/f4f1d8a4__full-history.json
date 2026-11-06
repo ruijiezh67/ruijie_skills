@@ -1,0 +1,19 @@
+{
+ "question_id": "f4f1d8a4",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99126,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Who gave me a new stand mixer as a birthday gift?",
+ "question_date": "2023/05/30 (Tue) 20:29",
+ "gold": "my sister",
+ "answer": "Based on the chat history (Session 12), your **sister** gave you the new stand mixer as a birthday gift last month.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}
