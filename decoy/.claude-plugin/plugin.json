@@ -1,6 +1,6 @@
 {
   "name": "decoy",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Fake data that can't be mistaken for real, and can be made again: reserved values from published standards, a seeded generator, a data card, and a linter.",
   "author": {
     "name": "Ruijie Zheng",

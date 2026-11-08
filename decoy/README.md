@@ -23,7 +23,7 @@ Or, for other agents that read `SKILL.md` files: `npx skills add https://github.
 |---|---|---|
 | email | `example.com/.net/.org`, `*.example`, `*.test`, `*.invalid` | RFC 2606, RFC 6761 |
 | phone (US) | 555-0100 to 555-0199 | NANPA, reserved for fiction |
-| phone (UK) | the 20 Ofcom drama ranges: 07700 900xxx, 020 7946 0xxx, 01632 960xxx, 0113 to 0191 city ranges, 028, 029, 0306, 0808, 0909 (`decoy.py safe` lists all) | Ofcom drama numbers |
+| phone (UK) | the 20 Ofcom drama ranges: 07700 900xxx, 020 7946 0xxx, 01632 960xxx, 0113 to 0191 city ranges, 028 9649 6xxx, 029 2018 0xxx, 0306, 0808, 0909 (`decoy.py safe` lists all) | Ofcom drama numbers |
 | card | processor test numbers (24, each checked against Stripe, Braintree or Adyen docs) | Luhn-valid numbers outside the list are flagged |
 | SSN | area 900-999, 000 or 666, or group 00, or serial 0000 (dashed or spaced; 9 bare digits are not checked) | never issued by the SSA |
 | IP | 192.0.2.0/24, 198.51.100.0/24, 203.0.113.0/24, 2001:db8::/32 | RFC 5737, RFC 3849 |

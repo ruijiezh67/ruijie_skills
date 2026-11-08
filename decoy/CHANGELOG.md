@@ -2,6 +2,11 @@
 
 Every rule traces to a real failure. Record the failure next to the fix.
 
+## 0.2.1 (2026-11-08): second review of awesome-llm-apps PR #1271
+- **Northern Ireland range corrected.** It is 028 9649 6000-6999. The 028 9018 0xxx block I had used is the pre-2019 range, now allocated for real use, so 0.2.0 marked real numbers as safe. The maintainer caught it.
+- **Seven-digit numbers.** US numbers without an area code are read with a dash, dot or space. Seven bare digits are documented as not checked.
+- **Limits documented:** two kinds of false positive, `ddd-dddd` tokens and 10 to 11 digit ids starting 0.
+
 ## 0.2.0 (2026-11-06): review of awesome-llm-apps PR #1271
 Each item below is a lint gap the maintainer found.
 - **The `# NON-RESERVED: <reason>` marker works.** Before, SKILL.md told the agent to mark exceptions, but lint still failed those lines. Values on a marked line are now listed for review and do not fail. A marker without a reason does not count.

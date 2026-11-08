@@ -2,6 +2,16 @@
 
 Every rule traces to a real failure. Record the failure next to the fix.
 
+## 0.2.1 (2026-11-08): second review of awesome-llm-apps PR #1270
+The maintainer read the checker adversarially and found three ways an unreceipted number could get out.
+- **Footer laundering:** any line starting with 🧾 or "Receipts:" was skipped, so "Receipts: test accuracy 91.0%" passed. Now only the exact footer line is skipped.
+- **Percent scaling without %:** any source of magnitude 1 or less also matched x100, so 0.85 passed against "lr": 0.0085. Now x100 applies only when the reported value carries %.
+- **Units:** `3985s`, `1.2GB`, `250ms` and `0.5x` were invisible. Unit suffixes are now read (not converted), so these need receipts, and a quote "elapsed 66.4s" backs 66.4.
+- A receipt id that is not a string is now a BAD line, not a traceback.
+- Limits are documented: exit codes and sessions are not checked.
+- `run_drift.py` now pins `--model claude-opus-5-5`.
+- 4 new tests (25 total); each fails on 0.2.0.
+
 ## 0.2.0 (2026-11-06): review of awesome-llm-apps PR #1270
 Each item below is a gap the maintainer found between the docs and the script.
 - **`cmd` receipts now match the command.** Before, `command` was never compared with the log, so a quote from any tool output passed (a number from `cat old_notes.txt` satisfied a receipt for `python never_ran.py`). The quote must now be in the output of a logged command equal to `command` (whitespace normalized).
