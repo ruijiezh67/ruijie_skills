@@ -2,6 +2,12 @@
 
 Every rule traces to a real failure. Record the failure next to the fix.
 
+## 0.2.2 (2026-11-11): third review of awesome-llm-apps PR #1270
+- A 1900 to 2100 integer with a unit (2000ms, 2048MB) is no longer skipped as a year.
+- Receipts with a missing, empty or duplicate id are a BAD turn.json line, so a failed receipt cannot be masked by a later one with the same id.
+- Limits: k and M are units, not multipliers.
+- Tests: 26.
+
 ## 0.2.1 (2026-11-08): second review of awesome-llm-apps PR #1270
 The maintainer read the checker adversarially and found three ways an unreceipted number could get out.
 - **Footer laundering:** any line starting with 🧾 or "Receipts:" was skipped, so "Receipts: test accuracy 91.0%" passed. Now only the exact footer line is skipped.

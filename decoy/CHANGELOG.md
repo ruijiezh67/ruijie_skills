@@ -2,6 +2,9 @@
 
 Every rule traces to a real failure. Record the failure next to the fix.
 
+## 0.2.2 (2026-11-11)
+- Seven-digit numbers without an area code need an exchange code starting 2-9 (NANP rule). Decimals such as `lng 151.2093` and `price 199.9900` are no longer reported as phones. The maintainer of awesome-llm-apps suggested this.
+
 ## 0.2.1 (2026-11-08): second review of awesome-llm-apps PR #1271
 - **Northern Ireland range corrected.** It is 028 9649 6000-6999. The 028 9018 0xxx block I had used is the pre-2019 range, now allocated for real use, so 0.2.0 marked real numbers as safe. The maintainer caught it.
 - **Seven-digit numbers.** US numbers without an area code are read with a dash, dot or space. Seven bare digits are documented as not checked.

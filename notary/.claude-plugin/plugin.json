@@ -1,6 +1,6 @@
 {
   "name": "notary",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "No receipt, no number. Every figure in an agent's report must point to the file, command output or calculation it came from, and the pointer is checked.",
   "author": {
     "name": "Ruijie Zheng",
