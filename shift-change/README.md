@@ -92,6 +92,7 @@ Re-measured on 2026-11-12 with every run isolated from the operator's own setup:
 Read this honestly:
 
 - **On recalling facts, shift-change does not beat `/compact`.** Paired: 1 win, 1 loss, 19 ties. Against REMvisual, all 21 tie. `/compact` gets the same score with the shortest handover, in a third of the time.
+- **So stay in the session with `/compact` when you can.** shift-change is for when you start a new conversation: after `/clear`, on another machine, the next day, or when the session is too far gone to compact. `/compact` cannot follow you there; a handover file can. This run shows that the file loses no more facts than `/compact` does.
 - **It does beat mattpocock `handoff`:** 4 wins, 0 losses.
 - **The earlier, non-isolated run is superseded.** In September shift-change scored 17/21 against `/compact`'s 14/21. That lead disappeared once runs were isolated and Claude Code and the model moved on. That run is kept in `bench/results-longmemeval/` for the record.
 - **Reading the full history beats every handover, 21/21.** A handover is compression; the case for one is that you don't have the session any more.
