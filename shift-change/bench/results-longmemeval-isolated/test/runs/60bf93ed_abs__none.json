@@ -1,0 +1,19 @@
+{
+ "question_id": "60bf93ed_abs",
+ "question_type": "multi-session",
+ "abstention": true,
+ "condition": "none",
+ "history_chars": 99935,
+ "history_sessions": 13,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days did it take for my iPad case to arrive after I bought it?",
+ "question_date": "2023/01/24 (Tue) 23:58",
+ "gold": "The information provided is not enough. You did not mention buying an iPad case.",
+ "answer": "I can't answer this. The working directory (`<work>\\lme\\60bf93ed_abs\\none-exam`) is empty, and nothing in this conversation mentions an iPad case, an order date or a delivery date.\n\nIf you give me the order date and the delivery date, I'll work out the number of days. You could also point me to the files that have this information, such as order confirmation and shipping emails.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

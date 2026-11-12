@@ -1,0 +1,19 @@
+{
+ "question_id": "a89d7624",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99929,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+ "question_date": "2023/05/30 (Tue) 21:17",
+ "gold": "The user would prefer responses that take into account their previous experience in Denver, specifically their interest in live music and memorable encounter with Brandon Flowers. They might appreciate suggestions that revisit or build upon this experience, such as revisiting the same bar or exploring similar music venues in the area. The user may not prefer general tourist recommendations or activities unrelated to their interest in live music.",
+ "answer": "Since you loved Denver's music scene on your last trip (The Killers at Red Rocks, then meeting Brandon Flowers), here are some ideas built around that, plus a few other things to do.\n\n## Music\n- **Red Rocks Amphitheatre:** Check the concert calendar for your dates. Even without a show, you can visit during the day to walk the trails and see the Colorado Music Hall of Fame. Morrison, the small town at its base, is a good place to eat before a show.\n- **Other venues:** The Ogden Theatre, Bluebird Theater, Fillmore Auditorium and Mission Ballroom host touring acts. Smaller places like Larimer Lounge, hi-dive and Globe Hall are good for finding new bands.\n- **Record shopping:** Twist & Shout Records is one of the best-known independent record stores in the country.\n- **Finding shows:** Songkick or Bandsintown will tell you who's playing while you're in town.\n\n## Food\n- You asked about **BBQ** last time, so try a local smokehouse. Check recent reviews before you go, since restaurants change.\n- **Union Station** and **Denver Milk Market** have lots of options in one place, which works well for a group.\n- **Larimer Square** and **RiNo (River North Art District)** are full of restaurants, breweries and bars.\n\n## City sights\n- **RiNo:** street murals, galleries and breweries.\n- **Denver Art Museum** and **Denver Botanic Gardens**.\n- **Coors Field:** catch a Rockies game if it's baseball season.\n- **Colorado State Capitol:** stand on the \"Mile High\" step.\n\n## Outdoors\n- **Red Rocks Park** and **Dinosaur Ridge**, which are next to each other.\n- **Golden** is about 30 minutes away. It has Clear Creek, Lookout Mountain and the Coors brewery tour.\n- If you have a full day, drive to **Rocky Mountain National Park** or the mountain towns along I-70, like Georgetown and Idaho Springs.\n\n## Tips\n- At 5,280 feet, Denver is a mile high. Drink lots of water and take it easy with alcohol on the first day.\n- Bring layers. The weather changes quickly, and Red Rocks gets cold after dark.\n\nDo you have a concert lined up already, or should I help you plan around the dates you're thinking of?",
+ "verdict": "yes",
+ "judge_raw": "Yes"
+}

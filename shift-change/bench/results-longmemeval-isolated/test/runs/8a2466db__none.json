@@ -1,0 +1,19 @@
+{
+ "question_id": "8a2466db",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99841,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Can you recommend some resources where I can learn more about video editing?",
+ "question_date": "2023/05/30 (Tue) 22:03",
+ "gold": "The user would prefer responses that suggest resources specifically tailored to Adobe Premiere Pro, especially those that delve into its advanced settings. They might not prefer general video editing resources or resources related to other video editing software.",
+ "answer": "Here are some good places to learn video editing, from free to paid.\n\n**Free video courses**\n- **YouTube channels:**\n  - *Justin Odisho* has quick tutorials for Premiere Pro and After Effects.\n  - *Casey Faris* covers DaVinci Resolve.\n  - *Film Riot* teaches filmmaking and editing techniques.\n  - *Every Frame a Painting* breaks down why edits work. The channel is no longer active, but the videos are still excellent.\n  - *Premiere Gal* is beginner-friendly.\n- **Blackmagic Design training:** Official DaVinci Resolve courses and books are free on their website, and the software is free too.\n- **Adobe Learn:** Official Premiere Pro tutorials on adobe.com.\n\n**Paid courses**\n- **LinkedIn Learning:** Many libraries and universities give free access. Check whether yours does.\n- **Udemy:** Frequent sales put courses around $15. Look for highly rated Premiere Pro or Resolve courses.\n- **MasterClass / Skillshare:** Better for creative inspiration than technical depth.\n- **Ripple Training:** Strong for Final Cut Pro and DaVinci Resolve.\n\n**Books on editing craft**\n- *In the Blink of an Eye* by Walter Murch is the classic short book on the theory of cutting.\n- *The Technique of Film and Video Editing* by Ken Dancyger.\n- *Cut by Cut* by Gael Chandler.\n\n**Communities**\n- Reddit: r/editors (professionals), r/VideoEditing, r/davinciresolve, r/premiere\n- Creative COW forums\n\n**Software to start with**\n- **DaVinci Resolve:** Free and professional-grade. It's the best starting point if you're not sure what to use.\n- **Premiere Pro:** The industry standard, available as a subscription.\n- **CapCut:** Simple and fast for short-form and social media video.\n\n**Tip:** The fastest way to improve is to recut existing footage. Download free practice footage, for example from Blackmagic's training projects, then copy edits you like and compare them with the originals.\n\nIf you tell me your goal (YouTube, short films, social media or professional work) and which software you use, I can narrow these down.",
+ "verdict": "no",
+ "judge_raw": "No"
+}

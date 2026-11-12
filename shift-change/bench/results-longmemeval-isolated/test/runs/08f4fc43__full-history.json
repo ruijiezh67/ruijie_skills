@@ -1,0 +1,19 @@
+{
+ "question_id": "08f4fc43",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99161,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days had passed between the Sunday mass at St. Mary's Church and the Ash Wednesday service at the cathedral?",
+ "question_date": "2023/02/20 (Mon) 21:26",
+ "gold": "30 days. 31 days (including the last day) is also acceptable.",
+ "answer": "**30 days** passed between the two services.\n\n- You went to Sunday mass at St. Mary's Church on **January 2nd** (Session 7).\n- You went to the Ash Wednesday service at the cathedral on **February 1st** (Session 5).\n\nFrom January 2 to January 31 is 29 days, and one more day takes you to February 1, for 30 in total.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

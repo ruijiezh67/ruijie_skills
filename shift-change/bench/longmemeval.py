@@ -39,7 +39,7 @@ import run  # reuse the harness: claude(), handover(), install_skills(), dump(),
 
 DATA_URL = "https://huggingface.co/datasets/xiaowu0162/longmemeval-cleaned/resolve/main/longmemeval_s_cleaned.json"
 DATA = os.path.join(run.WORK, "data", "longmemeval_s_cleaned.json")
-RESULTS_ROOT = os.path.join(run.HERE, "results-longmemeval")
+RESULTS_ROOT = os.environ.get("SHIFT_LME_RESULTS") or os.path.join(run.HERE, "results-longmemeval")
 RESULTS = os.path.join(RESULTS_ROOT, "test")  # set from --split in main()
 SEEDS = {"dev": 2025, "test": 2026}  # dev: used while improving the skill; test: disjoint, reported
 CONDITIONS = ["none", "full-history", "compact", "pocock-handoff", "remvisual-handoff", "shift-change-quick", "shift-change"]
@@ -181,7 +181,7 @@ def run_one(q, cond, max_chars, seed):
         if run.LIMIT.is_set():  # a quota stop is not a result; this run will simply be redone next time
             return
         problems = [p for p, bad in [("no artifact", cond["prompt"] and h["artifact_source"] == "missing"),
-                                     ("no answer", not answer or "hit your limit" in answer),
+                                     ("no answer", not answer or bool(run.LIMIT_RX.search(answer))),
                                      ("no verdict", verdict is None)] if bad]
         run.log(f"  {qid} · {cond['name']}: {verdict} (artifact {len(h['artifact'])} chars)"
                 + (f"  ⚠ INVALID ({', '.join(problems)})" if problems else ""))
@@ -198,6 +198,8 @@ def run_one(q, cond, max_chars, seed):
     finally:
         run.rmtree(run_dir)
         run.rmtree(exam_dir)
+        for d in (run_dir, exam_dir):  # the written history and the forked handover sessions are test artifacts
+            run.rmtree(run.project_dir(d))
 
 
 def summarize():

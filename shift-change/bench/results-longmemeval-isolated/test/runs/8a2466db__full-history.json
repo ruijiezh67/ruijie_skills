@@ -1,0 +1,19 @@
+{
+ "question_id": "8a2466db",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99841,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Can you recommend some resources where I can learn more about video editing?",
+ "question_date": "2023/05/30 (Tue) 22:03",
+ "gold": "The user would prefer responses that suggest resources specifically tailored to Adobe Premiere Pro, especially those that delve into its advanced settings. They might not prefer general video editing resources or resources related to other video editing software.",
+ "answer": "Since you use Adobe Premiere Pro and have been learning color grading in the Lumetri Color panel, these resources fit where you are now:\n\n**Official Adobe resources**\n- **Adobe Premiere Pro User Guide and Tutorials** (helpx.adobe.com): Adobe's own step-by-step guides, with good sections on Lumetri Color, proxies, multi-camera editing and export settings.\n- **Learning panel inside Premiere Pro**: Short hands-on tutorials that run inside the app.\n- **Adobe Creative Cloud YouTube channel**: Feature walkthroughs and livestreams.\n\n**YouTube channels**\n- **Premiere Bro**: Premiere-specific tips, workflow tricks and news.\n- **Justin Odisho**: Quick, practical Premiere Pro tutorials and effects.\n- **Cinecom.net**: Creative editing techniques and transitions.\n- **Video Copilot**: Mainly After Effects, so it's useful if you start using Dynamic Link.\n- **Color grading channels**: Look at Casey Faris, Waqas Qazi and Cullen Kelly. Some of them work mostly in DaVinci Resolve, but the ideas behind curves, color wheels and building a look also apply in Lumetri.\n\n**Structured online courses**\n- **LinkedIn Learning**: Full Premiere Pro courses, from essentials to advanced.\n- **Udemy**: Affordable, complete Premiere Pro courses. Look for highly rated ones that are updated often.\n- **Skillshare**: Shorter project-based classes, including ones on cinematic color grading.\n\n**Communities and forums**\n- **r/premierepro** and **r/editors** on Reddit: Good for troubleshooting and feedback on your edits.\n- **Adobe Premiere Pro Community Forum**: Official support with active expert users.\n\n**Books**\n- *Adobe Premiere Pro Classroom in a Book*: A structured, project-based guide with practice files.\n- *In the Blink of an Eye* by Walter Murch: A classic on the craft and theory of editing.\n- *Color Correction Handbook* by Alexis Van Hurkman: A deep reference on professional color grading.\n\n**A suggested path:** Since you've been working on Curves, the Creative panel and the Color Wheels, try taking one short project from start to finish. Begin with a neutral correction, then build a look and match shots using Color Match. Post the result on r/premierepro for feedback. Learning that way tends to stick better than only watching tutorials.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

@@ -2,6 +2,15 @@
 
 Every rule in the skills should trace back to a real failure. Record the failure next to the fix, and record it when a fix turns out not to be measurable.
 
+## 2026-11-12: LongMemEval re-measured with isolation
+- **Results:** every arm now runs isolated from the operator's own setup (no user CLAUDE.md, skills, plugins or MCP servers), on Claude Code 2.1.322. shift-change scored 20/21, tied with shift-change quick, `/compact` and REMvisual. Paired against `/compact`: 1 win, 1 loss, 19 ties. Against mattpocock `handoff`: 4 wins, 0 losses.
+- **The September lead is gone.** That run was not isolated and gave 17/21 against `/compact`'s 14/21. It is kept in `bench/results-longmemeval/` and marked as superseded in the README.
+- **Harness changes:**
+  - `claude()` isolates by default.
+  - Session transcripts are kept only where a later step resumes them, and are deleted after each run.
+  - The work and results directories can be moved off the system disk (`SHIFT_BENCH_WORK`, `SHIFT_LME_RESULTS`).
+  - Every usage-limit message now stops new runs. The old check only matched "hit your limit", so a "5-hour limit" reply was recorded as 51 failed runs, which were then re-run.
+
 ## 0.1.0 (unreleased)
 - `shift-change`: I-PASS handover template (tiered), transcript mining for corrections lost to compaction, fresh-agent exam with patch rounds, durable-taste proposal.
 - `shift-start`: world check + readback, waits for confirmation.

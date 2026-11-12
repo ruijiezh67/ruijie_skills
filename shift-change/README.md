@@ -2,7 +2,9 @@
 
 **Your next session should work like this one did.**
 
-> **Status (2026-11-06): v0.1, numbers pending re-measurement.** The benchmark tables below were measured in September 2026, before the benchmark harness isolated each run from the operator's own setup. The operator's `~/.claude/CLAUDE.md` reached every arm, including the no-handover baseline. Treat the numbers as unverified until the isolated re-run. The raw session fixtures and results are kept out of this repo: they contain a non-English transcript.
+> **Status (2026-11-12): v0.1.**
+> - **LongMemEval was re-measured with every run isolated from the operator's own setup.** On recalling facts, shift-change ties Claude Code's `/compact` (20/21 each); see below.
+> - **The scripted-session table is still unverified.** It was measured in September 2026, before that isolation existed: the operator's `~/.claude/CLAUDE.md` reached every arm, including the no-handover baseline. It has not been re-run yet, and its raw fixtures stay out of this repo because they contain a non-English transcript.
 
 Handovers for coding agents that carry the soul of the work (taste, rejected paths, what's still running, what's only assumed), and **prove it** by quizzing a fresh agent before you close the session.
 
@@ -65,7 +67,7 @@ After each handover, a fresh agent that never saw the session answers the questi
 
 These scripted-session numbers were produced by the skill as it stood on 2026-09-18, before the LongMemEval work added required reading, "about the user", and the pin-dates rule. They are kept as they were measured rather than re-run with a newer version and quietly relabelled; the LongMemEval table below uses the frozen version recorded in each result file.
 
-**What this does and doesn't show:**
+**What this does and doesn't show** (for the unverified September run above):
 - **Any handover beats none by a wide margin.** The popular skills cluster at 0.84–0.90, and `/compact` is a strong baseline.
 - **shift-change scored highest in both sessions.** The gap is clearest on taste (1.00 in every run) and rejected paths. Its overall lead over the best alternatives is small: within one standard deviation.
 - **The exam doesn't raise the score over quick mode.** What it adds is a fidelity score you can read *before* you close the session, for about 50 extra seconds.
@@ -73,25 +75,29 @@ These scripted-session numbers were produced by the skill as it stood on 2026-09
 
 ### LongMemEval (official questions, official judge prompts)
 
-21 held-out questions from [LongMemEval](https://github.com/xiaowu0162/longmemeval) (Wu et al., ICLR 2025), one handover per question per method, graded with the benchmark's own per-type judge prompts. The skill was developed against a *disjoint* dev sample and frozen before this run.
+21 held-out questions from [LongMemEval](https://github.com/xiaowu0162/longmemeval) (Wu et al., ICLR 2025), one handover per question per method, graded with the benchmark's own per-type judge prompts (run on Claude; the official judge is gpt-4o). The skill was developed against a *disjoint* dev sample and frozen before this run.
 
-| Method | Correct | Handover length (median) |
-|---|---|---|
-| full history (upper reference, reads everything) | **21 / 21** | – |
-| **shift-change** (with exam) | **17 / 21** | 9.0k chars |
-| **shift-change quick** | 16 / 21 | 7.4k chars |
-| mattpocock `handoff` | 16 / 21 | 6.5k chars |
-| REMvisual `handoff` | 15 / 21 | 18.1k chars |
-| Claude Code `/compact` | 14 / 21 | 9.4k chars |
-| no handover | 4 / 21 | – |
+Re-measured on 2026-11-12 with every run isolated from the operator's own setup: no user CLAUDE.md, skills, plugins or MCP servers. Claude Code 2.1.322, default model.
+
+| Method | Correct | Handover length (median) | Handover time (median) |
+|---|---|---|---|
+| full history (upper reference, reads everything) | **21 / 21** | – | – |
+| **shift-change** (with exam) | **20 / 21** | 9.7k chars | 102 s |
+| **shift-change quick** | **20 / 21** | 8.7k chars | 71 s |
+| Claude Code `/compact` | **20 / 21** | 6.6k chars | 31 s |
+| REMvisual `handoff` | **20 / 21** | 21.9k chars | 120 s |
+| mattpocock `handoff` | 16 / 21 | 5.1k chars | 70 s |
+| no handover | 5 / 21 | – | – |
 
 Read this honestly:
 
-- **The lead over the best alternative is one question.** Paired: shift-change wins 2, loses 1, ties 18 against mattpocock. That is not a significant difference, and saying "0.81 vs 0.76" would make a single question sound like a gap.
-- **Against `/compact` the margin is larger** (4 wins, 1 loss, 16 ties) and consistent with the scripted sessions.
-- **Reading the full history beats every handover, 21/21.** A handover is compression; for arbitrary details buried in a long session nothing beats having the session. The case for a handover is that you *don't* have it any more.
-- **Length is not quality.** REMvisual spends twice the characters for two fewer questions.
-- **The exam earned its keep here** (+1 question over quick mode) and cost twice the time. On the scripted sessions it made no difference. Treat it as a check you can read, not a score multiplier.
+- **On recalling facts, shift-change does not beat `/compact`.** Paired: 1 win, 1 loss, 19 ties. Against REMvisual, all 21 tie. `/compact` gets the same score with the shortest handover, in a third of the time.
+- **It does beat mattpocock `handoff`:** 4 wins, 0 losses.
+- **The earlier, non-isolated run is superseded.** In September shift-change scored 17/21 against `/compact`'s 14/21. That lead disappeared once runs were isolated and Claude Code and the model moved on. That run is kept in `bench/results-longmemeval/` for the record.
+- **Reading the full history beats every handover, 21/21.** A handover is compression; the case for one is that you don't have the session any more.
+- **What this benchmark cannot show** is shift-change's main claim: carrying taste, rejected paths and the user's corrections. LongMemEval asks about facts in chat history. That claim rests on the scripted sessions, which still need an isolated re-run.
+
+Raw results are in [`bench/results-longmemeval-isolated/`](bench/results-longmemeval-isolated/). Three of the 147 result files are left out of the repo because their handovers quote non-English text from the dataset. They count in the table.
 
 Everything is in [`bench/`](bench/): the method, sessions, questions, raw outputs, and the runs excluded for infrastructure failures. A feature-by-feature comparison is in [`docs/comparison.md`](docs/comparison.md), the trigger and output cases in [`evals/`](evals/), and an audit against Anthropic's published skill-authoring rules in [`docs/standards.md`](docs/standards.md).
 

@@ -1,0 +1,19 @@
+{
+ "question_id": "gpt4_6dc9b45b",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99841,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many months ago did I attend the Seattle International Film Festival?",
+ "question_date": "2021/10/02 (Sat) 03:56",
+ "gold": "4 months ago",
+ "answer": "You attended the Seattle International Film Festival about **4 months ago**. You mentioned seeing *CODA* there \"today\" in our chat on June 1, 2021, and it's now October 2, 2021.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

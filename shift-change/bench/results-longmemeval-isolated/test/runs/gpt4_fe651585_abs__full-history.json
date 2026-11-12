@@ -1,0 +1,19 @@
+{
+ "question_id": "gpt4_fe651585_abs",
+ "question_type": "temporal-reasoning",
+ "abstention": true,
+ "condition": "full-history",
+ "history_chars": 99331,
+ "history_sessions": 13,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Who became a parent first, Tom or Alex?",
+ "question_date": "2023/03/17 (Fri) 03:09",
+ "gold": "The information provided is not enough. You mentioned Alex becoming a parent in January, but you didn't mention anything about Tom.",
+ "answer": "I can't answer that from these chats, because Tom isn't mentioned in any of them.\n\nThe only thing I can find is about Alex. In one chat, you said your cousin Alex had adopted a baby girl from China in January 2023. If you tell me when Tom became a parent, I can tell you who was first.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

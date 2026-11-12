@@ -1,0 +1,19 @@
+{
+ "question_id": "ceb54acb",
+ "question_type": "single-session-assistant",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99742,
+ "history_sessions": 14,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "In our previous chat, you suggested 'sexual compulsions' and a few other options for alternative terms for certain behaviors. Can you remind me what the other four options were?",
+ "question_date": "2023/05/30 (Tue) 22:56",
+ "gold": "I suggested 'sexual fixations', 'problematic sexual behaviors', 'sexual impulsivity', and 'compulsive sexuality'.",
+ "answer": "After \"sexual compulsions,\" these were the other four options I suggested:\n\n1. **Sexual fixations:** a strong focus on sexual thoughts or behaviors that can get in the way of other parts of life.\n2. **Problematic sexual behaviors:** a plain description of behaviors that cause problems in a person's life.\n3. **Sexual impulsivity:** stresses the impulsive nature of the behaviors and how hard they can be to control.\n4. **Compulsive sexuality:** stresses the compulsive nature of the behaviors and how hard they can be to stop.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "f35224e0",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99859,
+ "history_sessions": 10,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+ "question_date": "2023/05/30 (Tue) 23:58",
+ "gold": "27",
+ "answer": "The working directory is empty, and nothing in this conversation records your listening history. I have no record of how many episodes of *How I Built This* or *My Favorite Murder* you've played.\n\nTo get the totals, you could:\n- **Check your podcast app.** Spotify, Apple Podcasts and Pocket Casts all show which episodes you've played on each show's page, and some have listening stats.\n- **Share the data with me.** Export your listening history or paste the counts, and I'll add them up.\n\nIf you already know the two numbers, tell me and I'll give you the total.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

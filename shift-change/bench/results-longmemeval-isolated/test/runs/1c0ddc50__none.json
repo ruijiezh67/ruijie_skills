@@ -1,0 +1,19 @@
+{
+ "question_id": "1c0ddc50",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99823,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Can you suggest some activities I can do during my commute to work?",
+ "question_date": "2023/05/30 (Tue) 13:09",
+ "gold": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+ "answer": "Here are some ideas. Which ones fit depends on how you commute.\n\n**If you're on public transit (or a passenger)**\n- **Read**: books, long-form articles, or saved newsletters. An e-reader or the Kindle/Libby app makes this easy.\n- **Learn a language** with Duolingo, Anki flashcards, or Pimsleur audio lessons.\n- **Journal or plan your day**: jot down your top 3 priorities, or reflect on yesterday.\n- **Take a short online course** on Coursera, Brilliant, or Khan Academy. Mobile-friendly lessons fit commute-sized chunks.\n- **Puzzles**: crosswords, sudoku, or chess puzzles to warm up your brain.\n- **Clear small tasks** like triaging email, paying bills, or replying to messages, so your workday starts cleaner.\n- **Rest**: close your eyes, listen to calm music, or just watch the scenery.\n\n**If you're driving (hands-free and eyes-free only)**\n- **Podcasts**: news, industry topics, comedy, or storytelling shows.\n- **Audiobooks**: Libby lets you borrow them free from many public libraries.\n- **Language audio courses** like Pimsleur or Language Transfer, which are designed for listening only.\n- **Practice out loud**: rehearse a presentation, practice a language, or sing along.\n- **Mindful driving**: skip the audio, notice your breathing, and let your mind wander or work through a problem.\n- **Hands-free calls** to family or friends, if it's safe and legal where you are.\n\n**If you walk or bike**\n- **Count it as exercise**: take a longer route or pick up the pace.\n- **Listen to podcasts or audiobooks** at a low volume so you can still hear traffic.\n- **Walking meditation**: pay attention to your surroundings, sounds, and steps.\n- **Explore**: try a new street, café, or park along the way.\n\n**General tips**\n- Download content ahead of time in case your signal drops.\n- Use the morning commute to get ready for work and the evening commute to unwind.\n- Switch activities now and then so your commute doesn't feel repetitive.\n\nIf you tell me how you commute and how long it takes, I can make the list more specific.",
+ "verdict": "no",
+ "judge_raw": "No"
+}

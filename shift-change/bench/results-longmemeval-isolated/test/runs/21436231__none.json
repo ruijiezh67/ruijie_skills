@@ -1,0 +1,19 @@
+{
+ "question_id": "21436231",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99757,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+ "question_date": "2023/05/30 (Tue) 19:25",
+ "gold": "12",
+ "answer": "I couldn't find any record of your Lake Michigan fishing trip. Your working directory is empty, and nothing from earlier conversations is available to me, so I don't know how many largemouth bass you caught.\n\nIf you have a fishing log, notes or photos from the trip, put them in this folder or paste the details here and I'll count them for you.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

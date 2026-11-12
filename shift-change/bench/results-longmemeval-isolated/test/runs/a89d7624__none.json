@@ -1,0 +1,19 @@
+{
+ "question_id": "a89d7624",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99929,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I'm planning a trip to Denver soon. Any suggestions on what to do there?",
+ "question_date": "2023/05/30 (Tue) 21:17",
+ "gold": "The user would prefer responses that take into account their previous experience in Denver, specifically their interest in live music and memorable encounter with Brandon Flowers. They might appreciate suggestions that revisit or build upon this experience, such as revisiting the same bar or exploring similar music venues in the area. The user may not prefer general tourist recommendations or activities unrelated to their interest in live music.",
+ "answer": "Here are some ideas for Denver. Since it's November, I've included a few seasonal notes.\n\n**In the city**\n- **Union Station & LoDo:** A restored train station with restaurants and bars. It's a good base for walking the Lower Downtown area.\n- **Denver Art Museum:** Known for its Native American and Western art, and the building itself is striking. The Clyfford Still Museum is next door.\n- **RiNo Art District:** Murals, breweries, food halls (Denver Central Market, Zeppelin Station) and galleries.\n- **Larimer Square:** A historic block with string lights overhead and good restaurants.\n- **Denver Botanic Gardens:** Its \"Blossoms of Light\" holiday light show usually starts in late November.\n- **Colorado State Capitol:** One step is marked at exactly one mile above sea level, and the free dome tour has great views.\n\n**Just outside town**\n- **Red Rocks Park & Amphitheatre (~30 min):** Worth a visit even without a concert. You can hike the trails, climb the stairs and see the small music hall of fame. Check the concert calendar too.\n- **Golden (~30 min):** A charming downtown, the Coors brewery tour, and hikes like Lookout Mountain.\n- **Boulder (~40 min):** Walk Pearl Street and hike at Chautauqua Park near the Flatirons.\n- **Mount Evans / Mount Blue Sky:** Usually closed to cars by now, so plan on Georgetown or Idaho Springs for an easy mountain-town day trip instead.\n\n**Food & drink**\n- Try green chile, which is a Denver staple, and Rocky Mountain trout. Bison is a classic too.\n- The brewery scene is huge. Great Divide, Wynkoop and Cerebral are good places to start.\n- Denver Milk Market and Avanti F&B are food halls that work well for groups.\n\n**Sports & events**\n- The Broncos (NFL), Nuggets (NBA) and Avalanche (NHL) are all in season in November.\n\n**Practical tips**\n- **Altitude:** Drink lots of water, take it easy with alcohol the first day, and wear sunscreen even when it's cold.\n- **Weather:** November changes fast. It can be 60°F one day and snowing the next, so pack layers.\n- **Skiing:** Some resorts, like Loveland, Keystone and Arapahoe Basin, may already be open. Check snow conditions. I-70 traffic on weekends can be rough.\n- **Getting around:** The A-Line train runs from the airport to Union Station in about 40 minutes. For the mountains, you'll want a car.\n\nIf you tell me how long you're staying and what you're into (outdoors, food, nightlife, museums, skiing), I can put together a day-by-day plan.",
+ "verdict": "no",
+ "judge_raw": "No"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "f35224e0",
+ "question_type": "multi-session",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99859,
+ "history_sessions": 10,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What is the total number of episodes I've listened to from 'How I Built This' and 'My Favorite Murder'?",
+ "question_date": "2023/05/30 (Tue) 23:58",
+ "gold": "27",
+ "answer": "You've listened to about **27 episodes** in total:\n\n- **\"How I Built This\":** about 15 episodes, as you mentioned on May 29.\n- **\"My Favorite Murder\":** you'd just finished episode 12 on May 26. That count assumes you started from episode 1.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

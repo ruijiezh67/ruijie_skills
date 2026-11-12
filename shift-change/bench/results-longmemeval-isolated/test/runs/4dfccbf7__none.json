@@ -1,0 +1,19 @@
+{
+ "question_id": "4dfccbf7",
+ "question_type": "temporal-reasoning",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 98642,
+ "history_sessions": 9,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days had passed since I started taking ukulele lessons when I decided to take my acoustic guitar to the guitar tech for servicing?",
+ "question_date": "2023/04/01 (Sat) 00:42",
+ "gold": "24 days. 25 days (including the last day) is also acceptable.",
+ "answer": "I couldn't work this out. The working directory is empty, and I have no record of when you started ukulele lessons or when you decided to take your acoustic guitar in for servicing. I also don't have any memory of earlier conversations.\n\nIf you give me the two dates, or point me to a file with them, I'll count the days between them.",
+ "verdict": "no",
+ "judge_raw": "No"
+}

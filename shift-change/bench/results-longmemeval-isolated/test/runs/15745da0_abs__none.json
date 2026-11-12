@@ -1,0 +1,19 @@
+{
+ "question_id": "15745da0_abs",
+ "question_type": "single-session-user",
+ "abstention": true,
+ "condition": "none",
+ "history_chars": 99552,
+ "history_sessions": 11,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How long have I been collecting vintage films?",
+ "question_date": "2023/05/30 (Tue) 23:02",
+ "gold": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+ "answer": "I can't tell you how long you've been collecting vintage films. Your working directory is empty, and nothing in our conversation mentions when you started.\n\nIf you tell me roughly when you began, I can work out how long it's been. If you have notes or a collection log somewhere, point me to the file and I can look for the start date there.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

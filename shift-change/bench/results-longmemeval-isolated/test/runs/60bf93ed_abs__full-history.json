@@ -1,0 +1,19 @@
+{
+ "question_id": "60bf93ed_abs",
+ "question_type": "multi-session",
+ "abstention": true,
+ "condition": "full-history",
+ "history_chars": 99935,
+ "history_sessions": 13,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "How many days did it take for my iPad case to arrive after I bought it?",
+ "question_date": "2023/01/24 (Tue) 23:58",
+ "gold": "The information provided is not enough. You did not mention buying an iPad case.",
+ "answer": "Your past chats never mention an iPad case, so I can't tell how long it took to arrive.\n\nThey do mention a laptop backpack, which may be what you're thinking of. You said you bought it from Amazon on January 15 and it arrived on January 20, so it took **5 days** to arrive.",
+ "verdict": "yes",
+ "judge_raw": "Yes"
+}

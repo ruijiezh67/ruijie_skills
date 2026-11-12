@@ -1,0 +1,19 @@
+{
+ "question_id": "ce6d2d27",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99808,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What day of the week do I take a cocktail-making class?",
+ "question_date": "2023/07/15 (Sat) 22:19",
+ "gold": "Friday",
+ "answer": "You take your cocktail-making class on **Friday**. That's what you said most recently, on June 30, when you described it as your class \"on Fridays.\" Earlier, on June 16, you had mentioned a class on Thursday, so the day may have changed since then.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}

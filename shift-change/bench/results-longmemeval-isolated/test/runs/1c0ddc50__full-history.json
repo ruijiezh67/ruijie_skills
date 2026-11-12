@@ -1,0 +1,19 @@
+{
+ "question_id": "1c0ddc50",
+ "question_type": "single-session-preference",
+ "abstention": false,
+ "condition": "full-history",
+ "history_chars": 99823,
+ "history_sessions": 12,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "full-history",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "Can you suggest some activities I can do during my commute to work?",
+ "question_date": "2023/05/30 (Tue) 13:09",
+ "gold": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+ "answer": "Your commute is about 40 minutes each way, so you have around 80 minutes a day. Based on what you've told me before, here are some ideas:\n\n**1. Keep going with podcasts**\n- You already listen to true crime and self-improvement podcasts, and you wanted to try history. Your earlier plan works well:\n  - **Monday–Tuesday:** *Hardcore History*. Episodes are long, so one can last across several trips.\n  - **Wednesday–Thursday:** *Lore*. Episodes are shorter and fit one leg of your trip.\n  - **Friday:** *The Dollop*, for something lighter before the weekend.\n- Starter episodes: \"The Wrath of the Khans\" (*Hardcore History*), \"They Made a Tonic\" (*Lore*) and \"The Radium Girls\" (*The Dollop*).\n- For science, try *Radiolab* or *Stuff You Should Know*.\n\n**2. Listen to audiobooks**\n- You were interested in *Guns, Germs, and Steel*. It's a dense 480-page book, so the audio version may be easier to get through on your commute.\n- *The Devil in the White City* and *Killers of the Flower Moon* both read like true crime, so they could link your two interests.\n\n**3. Play movie soundtracks to calm down or focus**\n- You said your Spotify soundtrack playlist helps you focus. Try *Interstellar* or *Inception* (Hans Zimmer) on the way in to get ready for work, and *The Grand Budapest Hotel* (Alexandre Desplat) on the way home.\n- You could use part of your commute to find new tracks for your weekly playlist additions.\n\n**4. Practice public speaking**\n- You mentioned joining a public speaking group such as Toastmasters. If you're driving or have some privacy, practice your speech out loud or record voice memos and play them back.\n- Try making up a 1–2 minute talk about the last podcast episode you heard. It helps you remember it and builds speaking skills.\n\n**5. Plan and reflect**\n- In the morning, decide on your top three tasks for the day.\n- In the evening, think about your day. If you're not driving, you could write in a gratitude or progress journal, which fits your self-improvement goals.\n\n**6. If you take public transit**\n- Read physical books or e-books.\n- Learn a language with Duolingo or *Coffee Break* podcasts.\n- Do short mindfulness sessions with Headspace or Calm. These can help with feeling self-conscious, which you mentioned before.\n\n**Sample week:**\n| Day | Morning (40 min) | Evening (40 min) |\n|---|---|---|\n| Mon | Hardcore History | Audiobook |\n| Tue | Hardcore History | Practice your speech out loud |\n| Wed | Lore | Soundtrack and planning |\n| Thu | Lore | Audiobook |\n| Fri | The Dollop | Whatever you feel like |\n\nDo you drive or take public transit? Some of these only work for one or the other, so I can adjust the list once I know.",
+ "verdict": "yes",
+ "judge_raw": "Yes"
+}

@@ -1,0 +1,19 @@
+{
+ "question_id": "58bf7951",
+ "question_type": "single-session-user",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99522,
+ "history_sessions": 14,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What play did I attend at the local community theater?",
+ "question_date": "2023/05/30 (Tue) 22:53",
+ "gold": "The Glass Menagerie",
+ "answer": "I can't tell which play you saw. Your working directory is empty, and I don't have notes, past conversations, calendar entries or tickets that would show it.\n\nIf you have a ticket confirmation email, a calendar event or a photo of the program, those would have the title. You could also check the theater's website or social media for what they've performed recently. If you add any of those files to this folder, I can look through them for you.",
+ "verdict": "no",
+ "judge_raw": "no"
+}

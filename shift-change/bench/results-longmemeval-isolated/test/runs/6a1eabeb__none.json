@@ -1,0 +1,19 @@
+{
+ "question_id": "6a1eabeb",
+ "question_type": "knowledge-update",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 99744,
+ "history_sessions": 8,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "What was my personal best time in the charity 5K run?",
+ "question_date": "2023/06/25 (Sun) 13:22",
+ "gold": "25 minutes and 50 seconds (or 25:50)",
+ "answer": "I can't find your personal best for the charity 5K. Your working directory (`<work>\\lme\\6a1eabeb\\none-exam`) is empty, and I don't have any earlier conversations or notes where you mentioned your race times.\n\nIf you tell me the time, or point me to a file or app export where your runs are logged, I can look it up or keep track of it for you.",
+ "verdict": "no",
+ "judge_raw": "No"
+}

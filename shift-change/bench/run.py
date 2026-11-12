@@ -39,7 +39,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RESULTS = os.path.join(HERE, "results")
-WORK = os.path.join(HERE, ".work")
+WORK = os.environ.get("SHIFT_BENCH_WORK") or os.path.join(HERE, ".work")  # big scratch: point it at a roomy disk
 PROJECTS = os.path.join(os.environ.get("CLAUDE_CONFIG_DIR") or os.path.join(os.path.expanduser("~"), ".claude"), "projects")
 BUILD_TOOLS = "Read Edit Write Glob Grep Bash(python:*) Bash(python3:*) Bash(git:*) Bash(ls:*) Bash(cat:*) Bash(head:*) Bash(tail:*) Bash(grep:*)"
 # No "Skill": a condition's own skill runs through its slash command; the Skill tool would let a handover
@@ -71,7 +71,11 @@ def claude_version():
     return _VERSION[0]
 
 
-def claude(args, cwd, prompt, timeout=3600, append_system=None, isolate=False, persist=False):
+# "You've hit your limit", "You've hit your 5-hour limit", "hit your weekly limit": any of them stops new runs
+LIMIT_RX = re.compile(r"hit your [\w -]*limit", re.I)
+
+
+def claude(args, cwd, prompt, timeout=3600, append_system=None, isolate=True, persist=False):
     """isolate=True keeps the benchmark operator's own setup out of every arm: no user or local settings
     (so no installed plugins, hooks or user skills), no MCP servers, no CLAUDE.md at any level, no session
     file (persist=True keeps it, for --resume). Verified 2026-10-27: without CLAUDE_CODE_DISABLE_CLAUDE_MDS the user's ~/.claude/CLAUDE.md still
@@ -104,7 +108,7 @@ def claude(args, cwd, prompt, timeout=3600, append_system=None, isolate=False, p
     out["wall_s"] = round(time.time() - t0, 1)
     out["claude_version"] = claude_version()
     out["models"] = sorted((out.get("modelUsage") or {}).keys())  # results must say what produced them
-    if "hit your limit" in (out.get("result") or "") or "hit your limit" in (out.get("stderr") or ""):
+    if LIMIT_RX.search(out.get("result") or "") or LIMIT_RX.search(out.get("stderr") or ""):
         if not LIMIT.is_set():
             log(f"  usage limit reached ({(out.get('result') or '').strip()[:80]}); finishing without starting new runs")
         LIMIT.set()
@@ -213,7 +217,7 @@ def build(session):
         if sid:
             args += ["--resume", sid]
         log(f"  build turn {i + 1}/{len(spec['turns'])}: {turn[:60]}")
-        out = claude(args, base, turn)
+        out = claude(args, base, turn, persist=True)  # later turns and the handovers resume this session
         sid = out.get("session_id", sid)
         turns.append({"user": turn, "assistant": out.get("result", ""), "wall_s": out["wall_s"],
                       "cost_usd": out.get("total_cost_usd")})
@@ -307,7 +311,7 @@ def handover(cond, state, run_dir):
         return {"artifact": "", "artifact_source": "none", "pins": pins, "wall_s": 0, "cost_usd": 0}
     before = time.time()
     out = claude(["--resume", state["session_id"], "--fork-session", "--permission-mode", "acceptEdits",
-                  "--allowedTools", HANDOVER_TOOLS], run_dir, cond["prompt"], timeout=1800,
+                  "--allowedTools", HANDOVER_TOOLS], run_dir, cond["prompt"], timeout=1800, persist=True,
                  append_system=None if cond["name"] == "compact" else HANDOVER_NOTE)
     source, artifact = "", ""
     if cond["name"] == "compact":
@@ -356,11 +360,11 @@ RETRY = "Your previous reply could not be parsed. Reply again with only the JSON
 
 def ask_json(args, cwd, prompt, expected_keys):
     """One claude call that must return a JSON object; retry once in the same session if it doesn't."""
-    out = claude(args, cwd, prompt, timeout=1200)
+    out = claude(args, cwd, prompt, timeout=1200, persist=True)  # kept so a non-JSON reply can be re-asked in-session
     data, raw = extract_json(out.get("result", "")), [out.get("result", "") or out.get("stderr", "")]
     if not set(expected_keys) <= set(data):
         if out.get("session_id") and out.get("result"):  # it answered, but not as JSON: ask again in-session
-            out2 = claude(args + ["--resume", out["session_id"]], cwd, RETRY, timeout=600)
+            out2 = claude(args + ["--resume", out["session_id"]], cwd, RETRY, timeout=600, persist=True)
         else:  # the call itself failed (empty output, rate limit, timeout): start over once
             out2 = claude(args, cwd, prompt, timeout=1200)
         data, raw = extract_json(out2.get("result", "")) or data, raw + [out2.get("result", "") or out2.get("stderr", "")]

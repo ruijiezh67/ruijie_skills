@@ -1,0 +1,19 @@
+{
+ "question_id": "8b9d4367",
+ "question_type": "single-session-assistant",
+ "abstention": false,
+ "condition": "none",
+ "history_chars": 98587,
+ "history_sessions": 10,
+ "pins": {},
+ "artifact": "",
+ "artifact_source": "none",
+ "handover_wall_s": 0,
+ "handover_cost_usd": 0,
+ "question": "I wanted to follow up on our previous conversation about private sector businesses in Chaudhary. Can you remind me of the company that employs over 40,000 people in the rug-manufacturing industry?",
+ "question_date": "2023/05/30 (Tue) 07:53",
+ "gold": "Jaipur Rugs",
+ "answer": "I can't see our previous conversation because I don't keep memory between sessions, so I can't check what we discussed. The company you're probably thinking of is **Jaipur Rugs**, founded by **Nand Kishore (N.K.) Chaudhary** in Jaipur, India. It's known for its network of roughly 40,000 artisans, many of them rural women weavers, and it often comes up as an example of a socially minded private business.\n\nIf you meant Chaudhary as a place, or a different business group such as Nepal's Chaudhary Group, tell me a bit more and I'll try again.",
+ "verdict": "yes",
+ "judge_raw": "yes"
+}
