@@ -49,7 +49,7 @@ Run the tests: `python notary/evals/test_notary.py`, `python decoy/evals/test_de
 
 Every benchmark run is isolated from the operator's own setup (no user CLAUDE.md, skills, plugins or MCP servers). It is scored by regexes against an answer key, never by a model judge, and records the Claude Code version and models used. Where a skill does not help, the README says so: on single-turn summaries the bare model already avoids every trap notary targets.
 
-Both skills are submitted to [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) (`agent_skills/`, PRs [#1270](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1270) and [#1271](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1271)).
+notary is submitted to [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) (`agent_skills/`, PR [#1270](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1270)). decoy was submitted too ([#1271](https://github.com/Shubhamsaboo/awesome-llm-apps/pull/1271)) and closed by the maintainer: fake personal data from reserved ranges already exists as a published skill. He named the linter as the part he had not seen elsewhere.
 
 ## Author
 
